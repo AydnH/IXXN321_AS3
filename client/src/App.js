@@ -3,9 +3,9 @@ import { HashRouter, Route, Redirect } from "react-router-dom";
 
 import Home from "./components/pages/homePage";
 import Login from "./components/pages/login";
-import Page2 from "./components/pages/page2";
-import Page3 from "./components/pages/page3";
-import Page4 from "./components/pages/page4";
+import projectPage from "./components/pages/projectPage";
+import projectUploaderPage from "./components/pages/projectUploadPage";
+import userPage from "./components/pages/userPage";
 
 import "./App.css";
 
@@ -20,9 +20,13 @@ function App() {
 
           <Route path="/Home" exact component={Home} />
           <Route path="/Login" exact component={Login} />
-          <Route path="/Page2" exact component={Page2} />
-          <Route path="/Page3" exact component={Page3} />
-          <Route path="/Page4" exact component={Page4} />
+          <Route path="/projectPage" exact component={projectPage} />
+          <Route
+            path="/projectUploaderPage"
+            exact
+            component={projectUploaderPage}
+          />
+          <Route path="/userPage" exact component={userPage} />
         </div>
       </div>
     </HashRouter>
