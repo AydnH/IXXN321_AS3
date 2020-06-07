@@ -13,8 +13,7 @@ function App() {
   return (
     <HashRouter basename="/">
       <div className="App">
-        {/* make our own header */}
-        <header className="App-header"></header>
+        <Redirect from="/" to="/Home" />
         <div className="appBody">
           {/* page components render in here */}
 

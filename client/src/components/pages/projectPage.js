@@ -2,6 +2,13 @@ import React from "react";
 
 export default class projectPage extends React.Component {
   render() {
-    return <h1> p2 </h1>;
+    return (
+      <div>
+        <section>
+          <h1>project page</h1>
+          <h2>layout 1, 2 or 3</h2>
+        </section>
+      </div>
+    );
   }
 }
