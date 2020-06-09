@@ -96,38 +96,64 @@ export default class SubmitForm extends React.Component {
     event.preventDefault();
     this.onSubmit = () => ({
       heroImage: this.state.heroImage,
-      image2: this.state.image2,
-      image3: this.state.image3,
-      image4: this.state.image4,
-      image5: this.state.image5,
-      image6: this.state.image6,
-      image7: this.state.image7,
       heroDescription: this.state.heroDescription,
+      image2: this.state.image2,
       description2: this.state.description2,
+      image3: this.state.image3,
       description3: this.state.description3,
+      image4: this.state.image4,
       description4: this.state.description4,
+      image5: this.state.image5,
       description5: this.state.description5,
+      image6: this.state.image6,
       description6: this.state.description6,
+      image7: this.state.image7,
       description7: this.state.description7,
     });
-    let projects = {
+    let Projects = {
       heroImage: this.state.heroImage,
-      image2: this.state.image2,
-      image3: this.state.image3,
-      image4: this.state.image4,
-      image5: this.state.image5,
-      image6: this.state.image6,
-      image7: this.state.image7,
       heroDescription: this.state.heroDescription,
+      image2: this.state.image2,
       description2: this.state.description2,
+      image3: this.state.image3,
       description3: this.state.description3,
+      image4: this.state.image4,
       description4: this.state.description4,
+      image5: this.state.image5,
       description5: this.state.description5,
+      image6: this.state.image6,
       description6: this.state.description6,
+      image7: this.state.image7,
       description7: this.state.description7,
     };
-    console.log(projects);
+    console.log(Projects);
+    axios
+      .post("http://localhost:3100/api/postProjects", Projects)
+      .then((res) => {
+        this.setState({ sent: true });
+      })
+      .catch(() => {
+        console.log("FAILED");
+      });
+    this.setState({
+      heroImage: "",
+      image2: "",
+      image3: "",
+      image4: "",
+      image5: "",
+      image6: "",
+      image7: "",
+      heroDescription: "",
+      description2: "",
+      description3: "",
+      description4: "",
+      description5: "",
+      description6: "",
+      description7: "",
+    });
+    console.log(this.state);
   }
+
   render() {
     return (
       <div className="submissionFormMaster">
