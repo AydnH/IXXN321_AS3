@@ -9,4 +9,4 @@ const profileSchema = new Schema({
   biography: String,
 });
 
-module.exports = mongoose.model("UserProfile", profileSchema);
+module.exports = mongoose.model("ProfileS", profileSchema);

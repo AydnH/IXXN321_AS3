@@ -15,7 +15,7 @@
   "devDependencies": {},
   "scripts": {
     "client": "cd client && npm run start",
-    "server": "node server.js",
+    "server": "nodemon server.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const Projects = require("./client/src/components/models/projectScheme");
-const UserProfile = require("./client/src/components/models/profileScheme");
+const ProfileS = require("./client/src/components/models/profileScheme");
 
 const dbRoute = `mongodb+srv://admin:ProjectAdmin1@cluster0-ywkdy.mongodb.net/?retryWrites=true&w=majority`;
 mongoose.connect(dbRoute, { useNewUrlParser: true });
@@ -33,7 +33,6 @@ app.get("/api/getProjects", (req, res) => {
     return res.json({ success: true, projects: projects });
   });
 });
-
 app.post("/api/postProjects", async (req, res) => {
   const projects = await Projects.create(req.body);
   console.log(projects);
@@ -42,14 +41,13 @@ app.post("/api/postProjects", async (req, res) => {
 
 //profile Upload
 app.get("/api/getProfile", (req, res) => {
-  Profile.find((err, profile) => {
+  ProfileS.find((err, profile) => {
     if (err) return res.json({ success: false, error: err });
     return res.json({ success: true, profile: profile });
   });
 });
-
 app.post("/api/postProfile", async (req, res) => {
-  const profile = await UserProfile.create(req.body);
+  const profile = await ProfileS.create(req.body);
   console.log(profile);
   return res.json({ success: true, profile: profile });
 });
