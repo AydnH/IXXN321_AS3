@@ -41,21 +41,22 @@ export default class ProfileUploadForm extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     this.onSubmit = () => ({
-      profilePicture: this.profilePicture,
-      firstName: this.firstName,
-      lastName: this.lastName,
-      profession: this.profession,
-      biography: this.biography,
+      profilePicture: this.state.profilePicture,
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      profession: this.state.profession,
+      biography: this.state.biography,
     });
-    let Profile = {
-      profilePicture: this.profilePicture,
-      firstName: this.firstName,
-      lastName: this.lastName,
-      profession: this.profession,
-      biography: this.biography,
+    let accountProfile = {
+      profilePicture: this.state.profilePicture,
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      profession: this.state.profession,
+      biography: this.state.biography,
     };
+    console.log(accountProfile);
     axios
-      .post("http://localhost:3100/api/postProfile", Profile)
+      .post("http://localhost:3100/api/postProfile", accountProfile)
       .then((res) => {
         this.setState({ sent: true });
       })

@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
-const profileSchema = new Schema({
+const accountProfileSchema = new Schema({
   profilePicture: String,
   firstName: String,
   lastName: String,
@@ -9,4 +9,4 @@ const profileSchema = new Schema({
   biography: String,
 });
 
-module.exports = mongoose.model("ProfileS", profileSchema);
+module.exports = mongoose.model("accountProfile", accountProfileSchema);

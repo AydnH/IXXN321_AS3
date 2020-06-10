@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
-const projectScehma = new Schema({
+const projectSchema = new Schema({
   heroImage: String,
   heroDescription: String,
   image2: String,
@@ -18,4 +18,4 @@ const projectScehma = new Schema({
   description7: String,
 });
 
-module.exports = mongoose.model("Projects", projectScehma);
+module.exports = mongoose.model("Projects", projectSchema);
