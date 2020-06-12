@@ -1,5 +1,5 @@
 import React from "react";
-import SubmitForm from "../submitter/submissionForm";
+import SubmitForm from "../../submitter/submissionForm";
 
 export default class projectUploaderPage extends React.Component {
   render() {

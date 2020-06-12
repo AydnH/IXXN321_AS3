@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileUploadForm from "../profile/profileUpload";
+import ProfileUploadForm from "../../profile/profileUpload";
 
 export default class Login extends React.Component {
   render() {
