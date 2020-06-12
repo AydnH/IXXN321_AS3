@@ -1,17 +1,20 @@
 import React from "react";
+import "../css/homePage.css";
+
+import FeatureSection from "./featureSection";
 
 export default class Home extends React.Component {
   render() {
     return (
 
-      <div>
+      <div id='homePageCont'>
 
-        <section>
-          <div>
-            <h1> home </h1>
-            <h2> top section</h2>
-          </div>
-        </section>
+        <FeatureSection/>
+
+        <div id='titleCont'>
+          <h1>VORTFOLIO's</h1>
+          <h1 id='titleFlip'>TOP PICKS</h1>
+        </div>
 
         <section>
           <div>
