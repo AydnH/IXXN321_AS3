@@ -20,8 +20,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
-
 app.get("/", (req, res) => {
   res.send("API LIVE");
 });
@@ -51,3 +49,5 @@ app.post("/api/postProfile", async (req, res) => {
   console.log(accountprofile);
   return res.json({ success: true, accountprofile: accountprofile });
 });
+
+app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
