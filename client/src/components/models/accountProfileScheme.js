@@ -2,9 +2,8 @@ const mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 const accountProfileSchema = new Schema({
-  profilePicture: String,
-  firstName: String,
-  lastName: String,
+  name: String,
+  email: String,
   profession: String,
   biography: String,
 });
