@@ -22,10 +22,6 @@ export default class SubmitForm extends React.Component {
       heroDescription: "",
       description2: "",
       description3: "",
-      description4: "",
-      description5: "",
-      description6: "",
-      description7: "",
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -45,13 +41,9 @@ export default class SubmitForm extends React.Component {
       image3,
       description3,
       image4,
-      description4,
       image5,
-      description5,
       image6,
-      description6,
       image7,
-      description7,
     } = this.state;
     let Projects = {
       heroImage: `${heroImage}`,
@@ -61,13 +53,9 @@ export default class SubmitForm extends React.Component {
       image3: `${image3}`,
       description3: `${description3}`,
       image4: `${image4}`,
-      description4: `${description4}`,
       image5: `${image5}`,
-      description5: `${description5}`,
       image6: `${image6}`,
-      description6: `${description6}`,
       image7: `${image7}`,
-      description7: `${description7}`,
     };
     console.log(Projects);
     axios
@@ -109,25 +97,21 @@ export default class SubmitForm extends React.Component {
           <ProjectFourForm
             handleChange={this.handleChange}
             image4={this.state.image4}
-            description4={this.description4}
           />
           {/* project 5 */}
           <ProjectFiveForm
             handleChange={this.handleChange}
             image5={this.state.image5}
-            description5={this.state.description5}
           />
           {/* project 6 */}
           <ProjectSixForm
             handleChange={this.handleChange}
             image6={this.state.image6}
-            description6={this.state.description6}
           />
           {/* project 7 */}
           <ProjectSevenForm
             handleChange={this.handleChange}
             image7={this.state.image7}
-            description7={this.state.description7}
           />
           <button type="submit">Submit</button>
         </form>

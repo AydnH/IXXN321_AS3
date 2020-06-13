@@ -38,7 +38,8 @@ export default class ProjectTwoForm extends React.Component {
         </div>
         {/* description */}
         <div className="description-Submission">
-          <input
+          <textarea
+            rows="8"
             type="Text"
             name="description2"
             value={this.props.description2}

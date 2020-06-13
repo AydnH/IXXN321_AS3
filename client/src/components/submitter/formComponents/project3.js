@@ -38,12 +38,13 @@ export default class projectThreeForm extends React.Component {
         </div>
         {/* description */}
         <div className="description-Submission">
-          <input
+          <textarea
+            rows="8"
             type="Text"
             name="description3"
             value={this.props.description3}
             onChange={this.props.handleChange}
-            placeholder="Descriptino"
+            placeholder="Description"
           />
         </div>
       </div>

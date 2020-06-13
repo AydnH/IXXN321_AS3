@@ -38,7 +38,8 @@ export default class HeroSubmission extends React.Component {
         </div>
         {/* description */}
         <div className="description-Submission">
-          <input
+          <textarea
+            rows="8"
             type="Text"
             name="heroDescription"
             value={this.props.heroDescription}
