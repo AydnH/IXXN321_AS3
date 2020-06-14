@@ -1,58 +1,38 @@
 import React from "react";
 import axios from "axios";
+import NameForm from "../profile/profileForms/name";
+import EmailForm from "../profile/profileForms/email";
+import BiographyForm from "../profile/profileForms/biography";
+import ProfessionForm from "../profile/profileForms/profession";
 
 export default class ProfileUploadForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      profilePicture: "",
-      firstName: "",
-      lastName: "",
+      name: "",
+      email: "",
       profession: "",
       biography: "",
     };
+    this.handleChange = this.handleChange.bind(this);
   }
-  profilePictureOnChange(event) {
+
+  handleChange(event) {
+    const { name, value } = event.target;
     this.setState({
-      profilePicture: event.target.value,
-    });
-  }
-  firstNameOnChange(event) {
-    this.setState({
-      firstName: event.target.value,
-    });
-  }
-  lastNameOnChange(event) {
-    this.setState({
-      lastName: event.target.value,
-    });
-  }
-  professionOnChange(event) {
-    this.setState({
-      profession: event.target.value,
-    });
-  }
-  biographyOnChange(event) {
-    this.setState({
-      biography: event.target.value,
+      [name]: value,
     });
   }
 
-  handleSubmit(event) {
+  handleSubmit = (event) => {
     event.preventDefault();
-    this.onSubmit = () => ({
-      profilePicture: this.state.profilePicture,
-      firstName: this.state.firstName,
-      lastName: this.state.lastName,
-      profession: this.state.profession,
-      biography: this.state.biography,
-    });
+    const { name, email, profession, biography } = this.state;
+
     let accountProfile = {
-      profilePicture: this.state.profilePicture,
-      firstName: this.state.firstName,
-      lastName: this.state.lastName,
-      profession: this.state.profession,
-      biography: this.state.biography,
+      name: `${name}`,
+      email: `${email}`,
+      profession: `${profession}`,
+      biography: `${biography}`,
     };
     console.log(accountProfile);
     axios
@@ -63,15 +43,7 @@ export default class ProfileUploadForm extends React.Component {
       .catch(() => {
         console.log("FAILED TO SEND");
       });
-    this.setState({
-      profilePicture: "",
-      firstName: "",
-      lastName: "",
-      profession: "",
-      biography: "",
-    });
-    console.log(this.state);
-  }
+  };
 
   render() {
     return (
@@ -81,57 +53,20 @@ export default class ProfileUploadForm extends React.Component {
           onSubmit={this.handleSubmit.bind(this)}
           method="POST"
         >
-          <div className="form-group">
-            <div className="image-submission">
-              <input
-                type="file"
-                value={this.state.profilePicture}
-                onChange={this.profilePictureOnChange.bind(this)}
-                placeholder="Profile Picture"
-              />
-            </div>
-          </div>
-          <div className="form-group">
-            <div className="text-submission">
-              <input
-                type="text"
-                value={this.state.firstName}
-                onChange={this.firstNameOnChange.bind(this)}
-                placeholder="First Name"
-              />
-            </div>
-          </div>
-          <div className="form-group">
-            <div className="text-submission">
-              <input
-                type="text"
-                value={this.state.lastName}
-                onChange={this.lastNameOnChange.bind(this)}
-                placeholder="Last Name"
-              />
-            </div>
-          </div>
-          <div className="form-group">
-            <div className="text-submission">
-              <input
-                type="text"
-                value={this.state.profession}
-                onChange={this.professionOnChange.bind(this)}
-                placeholder="Profession"
-              />
-            </div>
-          </div>
-          <div className="form-group">
-            <div className="text-submission">
-              <textarea
-                type="text"
-                rows="8"
-                value={this.state.biography}
-                onChange={this.biographyOnChange.bind(this)}
-                placeholder="Write a short biography aboput yourself"
-              />
-            </div>
-          </div>
+          <NameForm handleChange={this.handleChange} name={this.state.name} />
+          <EmailForm
+            handleChange={this.handleChange}
+            email={this.state.email}
+          />
+          <ProfessionForm
+            handleChange={this.handleChange}
+            profession={this.state.profession}
+          />
+          <BiographyForm
+            handleChange={this.handleChange}
+            biography={this.state.biography}
+          />
+
           <button type="submit">set</button>
         </form>
       </div>

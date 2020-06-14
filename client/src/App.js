@@ -1,11 +1,11 @@
 import React from "react";
 import { HashRouter, Route } from "react-router-dom";
 
-import Home from "./components/pages/homePage";
-import Login from "./components/pages/login";
-import projectPage from "./components/pages/projectPage";
-import projectUploaderPage from "./components/pages/projectUploadPage";
-import userPage from "./components/pages/userPage";
+import Home from "./components/pages/homePage/js/homePage";
+import Login from "./components/pages/js/login";
+import projectPage from "./components/pages/js/projectPage";
+import projectUploaderPage from "./components/pages/js/projectUploadPage";
+import userPage from "./components/pages/js/userPage";
 
 import "./App.css";
 
