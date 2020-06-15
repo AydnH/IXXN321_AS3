@@ -2,6 +2,10 @@ import React from "react";
 import "../css/homePage.css";
 
 import FeatureSection from "./featureSection";
+import CoolProjects from "./CoolProjects";
+import InterestingPeople from "./InterestingPeople";
+import FilterBar from "./FilterBar";
+
 
 export default class Home extends React.Component {
   render() {
@@ -16,23 +20,11 @@ export default class Home extends React.Component {
           <h1 id='titleFlip'>TOP PICKS</h1>
         </div>
 
-        <section>
-          <div>
-            <h2> cool projects</h2>
-          </div>
-        </section>
+        <CoolProjects/>
 
-        <section>
-          <div>
-            <h2>Interesting Persons</h2>
-          </div>
-        </section>
+        <InterestingPeople/>
 
-        <section>
-          <div>
-            <h2> filter bar</h2>
-          </div>
-        </section>
+        <FilterBar/>
 
         <section>
           <div>

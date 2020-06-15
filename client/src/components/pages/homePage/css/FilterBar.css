@@ -1,0 +1,35 @@
+#FilterBarCont{
+    margin: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5vw;
+}
+
+.disCont{
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.disCont img{
+    width: 90%;
+}
+
+.indusCont{
+    background-image: url(https://media.giphy.com/media/3o8doQl0LHPGHmwyPu/source.gif);
+}
+
+.interCont{
+    background-image: url(https://media.giphy.com/media/xThuWpAQN4hBC5HStG/source.gif);
+}
+
+.mediaCont{
+    background-image: url(https://media.giphy.com/media/l1KUtNHycPt5uWvug/source.gif);
+}
+
+.graphCont{
+    background-image: url(https://media.giphy.com/media/l1J9OUNGNXAHrTwe4/source.gif);
+}
