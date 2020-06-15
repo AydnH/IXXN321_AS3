@@ -14,7 +14,7 @@ function App() {
   return (
     <HashRouter basename="/">
       <div className="App">
-        {/* <Redirect from="/" to="/Home" /> */}
+        <Redirect from="/" to="/Home" />
         <div className="appBody">
           {/* page components render in here */}
 
@@ -28,7 +28,6 @@ function App() {
           />
           <Route path="/userPage" exact component={userPage} />
           <Route path="/SignUp" exact component={SignUp} />
-
         </div>
       </div>
     </HashRouter>
