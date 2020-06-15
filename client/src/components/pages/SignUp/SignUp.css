@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: none;
+    max-height: 100vh;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 0;
+    max-height: 100vh;
+}
+
+.heading {
+    transform: translate(-50%, 1%) rotate(90deg);
+    max-height: 100vh;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin-bottom: 5%;
+    
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 6%;
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 43%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.professions {
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+button {
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 12px;
+    background-color: white;
+    border-color: #9A9A9A;
+    color: #9A9A9A;
+}
+
+button:focus {
+    color:#C71111;
+    border-color:#C71111;
+    outline: 0;
+}

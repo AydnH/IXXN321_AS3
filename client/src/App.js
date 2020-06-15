@@ -8,6 +8,7 @@ import projectUploaderPage from "./components/pages/js/projectUploadPage";
 import userPage from "./components/pages/js/userPage";
 
 import "./App.css";
+import SignUp from "./components/pages/SignUp/SignUp";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
             component={projectUploaderPage}
           />
           <Route path="/userPage" exact component={userPage} />
+          <Route path="/SignUp" exact component={SignUp} />
+
         </div>
       </div>
     </HashRouter>
