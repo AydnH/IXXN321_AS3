@@ -3,7 +3,7 @@ import { HashRouter, Route } from "react-router-dom";
 
 import Home from "./components/pages/homePage/js/homePage";
 import Login from "./components/pages/js/login";
-import projectPage from "./components/pages/js/projectPage";
+import ProjectPage from "./components/pages/js/projectPage";
 import projectUploaderPage from "./components/pages/js/projectUploadPage";
 import userPage from "./components/pages/js/userPage";
 
@@ -19,7 +19,7 @@ function App() {
 
           <Route path="/Home" exact component={Home} />
           <Route path="/Login" exact component={Login} />
-          <Route path="/projectPage" exact component={projectPage} />
+          <Route path="/projectPage" exact component={ProjectPage} />
           <Route
             path="/projectUploaderPage"
             exact
