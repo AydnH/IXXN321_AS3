@@ -5,7 +5,7 @@ import Home from "./components/pages/homePage/js/homePage";
 import Login from "./components/pages/js/login";
 import ProjectPage from "./components/pages/js/projectPage";
 import projectUploaderPage from "./components/pages/js/projectUploadPage";
-import userPage from "./components/pages/js/userPage";
+import userPage from "../src/components/pages/userPage/userPage";
 
 import "./App.css";
 

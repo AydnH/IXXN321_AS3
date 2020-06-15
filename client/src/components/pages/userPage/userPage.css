@@ -72,37 +72,115 @@ h2{
 }
 
 h4 {
-    
-position: absolute;
-width: 375.12px;
-height: 113.62px;
-left: 830px;
-top: 2800px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 42px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
+    position: absolute;
+    width: 375.12px;
+    height: 113.62px;
+    left: 944.88px;
+    top: 3320.41px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
 }
 
 p2{
-position: absolute;
-width: 375px;
-height: 246px;
-left: 800px;
-top: 3000px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 36px;
-/* or 200% */
-
-letter-spacing: 0.05em;
-text-transform: uppercase;
+    position: absolute;
+    width: 375px;
+    height: 246px;
+    left: 945px;
+    top: 3469px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    /* or 200% */
+    
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
 }
+
+.hero {
+    
+position: absolute;
+width: 592px;
+height: 851.88px;
+left: 117px;
+top: 120px;
+}
+
+.placeholder {
+position: absolute;
+width: 572px;
+height: 1043px;
+left: 117px;
+top: 1182px;
+}
+
+.placeholder2 {
+    position: absolute;
+    width: 571px;
+    height: 1043px;
+    left: 750px;
+    top: 1182px;
+    }
+
+    
+.placeholder3 {
+    position: absolute;
+    width: 375px;
+    height: 719px;
+    left: 118px;
+    top: 2279px;
+    }
+
+ .placeholder4 {
+    position: absolute;
+    width: 374px;
+    height: 719px;
+    left: 533px;
+    top: 2279px;
+    }
+
+.placeholder5 {
+  position: absolute;
+  width: 375px;
+  height: 719px;
+  left: 946px;
+  top: 2279px;
+     }
+
+.placeholder6 {
+    position: absolute;
+    width: 374.22px;
+    height: 717.77px;
+    left: 118px;
+    top: 3038px;
+}
+
+.placeholder7 {
+    position: absolute;
+    width: 374.22px;
+    height: 717.77px;
+    left: 531.89px;
+    top: 3038px;
+
+    }
+               
+.placeholder8 {
+    position: absolute;
+    width: 375.12px;
+    height: 317.41px;
+    left: 944.88px;
+    top: 3038px;
+ }
+               
+        
