@@ -1,9 +1,14 @@
 import React from 'react';
-import "../css/CoolProjects.css"
+import "../css/CoolProjects.css";
 
 export default function CoolProjects() {
     return (
         <section id='CPCont'>
+
+            {/* <div id='titleCont'>
+                <h1 id='titleVort'>VORTFOLIO's</h1>
+                <h1 id='titleFlip'>TOP PICKS</h1>
+            </div> */}
 
             <div id='Project1'>
                 <img src='https://media.giphy.com/media/l4FGpgZtKSRpbgeXK/source.gif'/>
