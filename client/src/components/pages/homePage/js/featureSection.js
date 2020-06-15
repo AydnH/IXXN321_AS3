@@ -1,20 +1,23 @@
 import React from "react";
 import "../css/featureSection.css";
+import Vortfolio from "../images/vortfolio.png";
 
 export default class FeatureSection extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>VORTFOLIO</h1>
-        <div></div>
-        <div>
-          <h2>COOL PROJECT NAME</h2>
-          <div id="projectDiv">
-            <svg></svg>
-            <h3>FIRSTNAME LASTNAME</h3>
-          </div>
-        </div>
-      </div>
-    );
-  }
+    render(){
+        return (
+
+            <div id='featureCont'>
+                <img id='vortImg' src={Vortfolio}/>
+                <img id='featureImg' src="https://media.giphy.com/media/xWYv8lJZXv9Fm/source.gif"/>
+                <div class='projectDiv'>
+                    <h2>COOL PROJECT NAME</h2>
+                    <div id='nameDiv'>
+                        <div id='lineDiv'></div>
+                        <h3>FIRSTNAME LASTNAME</h3>
+                    </div>
+                </div>
+            </div>
+
+        )
+    }
 }
