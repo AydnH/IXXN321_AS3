@@ -22,33 +22,33 @@ h1 {
     
 }
 h3{
-position: absolute;
-width: 540.22px;
-height: 205.07px;
-left: 780px;
-top: 198px;
+    position: absolute;
+    width: 540.22px;
+    height: 205.07px;
+    left: 780px;
+    top: 198px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 72px;
-line-height: 84px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
 }
 p {
-position: absolute;
-width: 537px;
-height: 535px;
-left: 783px;
-top: 437px;
+    position: absolute;
+    width: 537px;
+    height: 535px;
+    left: 783px;
+    top: 437px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
 /* or 200% */
 
 text-transform: uppercase;
@@ -109,20 +109,19 @@ p2{
 }
 
 .hero {
-    
-position: absolute;
-width: 592px;
-height: 851.88px;
-left: 117px;
-top: 120px;
+    position: absolute;
+    width: 592px;
+    height: 851.88px;
+    left: 117px;
+    top: 120px;
 }
 
 .placeholder {
-position: absolute;
-width: 572px;
-height: 1043px;
-left: 117px;
-top: 1182px;
+    position: absolute;
+    width: 572px;
+    height: 1043px;
+    left: 117px;
+    top: 1182px;
 }
 
 .placeholder2 {
@@ -151,11 +150,11 @@ top: 1182px;
     }
 
 .placeholder5 {
-  position: absolute;
-  width: 375px;
-  height: 719px;
-  left: 946px;
-  top: 2279px;
+    position: absolute;
+    width: 375px;
+    height: 719px;
+    left: 946px;
+    top: 2279px;
      }
 
 .placeholder6 {
