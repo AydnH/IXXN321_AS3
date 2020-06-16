@@ -8,14 +8,14 @@ export default class ProjectPage1 extends React.Component {
             <div className="container">
 
                 <div className="section">
-                    <h1>PROJECT TITLE</h1>
-                    <h2>FirstName LastName</h2>
+                    <h1 className="project-title">PROJECT TITLE</h1>
+                    <h2 className="designer-name">FirstName LastName</h2>
                 </div>
 
                 <div className="section">
                     <div className="flexcontainer">
                         <img className="hero" src={landscape} alt="placeholder"/>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh. Aenean pellentesque imperdiet morbi vitae varius sed pellentesque aliquet ultricies. Dignissim blandit ultrices vehicula convallis. Congue massa dui eu porttitor faucibus mi neque, venenatis. Congue massa dui eu. </p>
+                        <p className="synopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh. Aenean pellentesque imperdiet morbi vitae varius sed pellentesque aliquet ultricies. Dignissim blandit ultrices vehicula convallis. Congue massa dui eu porttitor faucibus mi neque, venenatis. Congue massa dui eu. </p>
                     </div>
                 </div>
 
@@ -24,7 +24,7 @@ export default class ProjectPage1 extends React.Component {
                         <img className="sml-img"  src={landscape} alt="placeholder"/>
                         <img className="sml-img" src={landscape} alt="placeholder"/>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh. Aenean pellentesque imperdiet morbi vitae varius sed pellentesque aliquet ultricies. Dignissim blandit ultrices vehicula convallis. Congue massa dui eu porttitor faucibus mi neque, venenatis. Congue massa dui eu. </p>
+                    <p className="synopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh. Aenean pellentesque imperdiet morbi vitae varius sed pellentesque aliquet ultricies. Dignissim blandit ultrices vehicula convallis. Congue massa dui eu porttitor faucibus mi neque, venenatis. Congue massa dui eu. </p>
                 </div>
 
                 <div className="section">
