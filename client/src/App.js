@@ -18,7 +18,7 @@ function App() {
         <Redirect from="/" to="/Home" />
         <div className="appBody">
           {/* page components render in here */}
-
+          <Nav />
           <Route path="/Home" exact component={Home} />
           <Route path="/Login" exact component={Login} />
           <Route path="/projectPage" exact component={ProjectPage} />
@@ -30,7 +30,6 @@ function App() {
           <Route path="/userPage" exact component={userPage} />
           <Route path="/SignUp" exact component={SignUp} />
         </div>
-        <Nav />
       </div>
     </HashRouter>
   );
