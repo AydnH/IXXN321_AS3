@@ -3,7 +3,8 @@
 .featureCont{
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
-    margin: 10vw;
+    margin: 15vw;
+    margin-top: 5vw;
     height: 80vh;
     font-family: 'Roboto', sans-serif;
 }

@@ -5,23 +5,23 @@ export default class Nav extends React.Component {
   render() {
     return (
       <div id="navCont">
-        <div id="navleft">
-          <a href="" className="navDark login">
+        <div>
+          <a href="" className="navLeft login">
             Login
           </a>
-          <a href="" className="navDark upload">
+          <a href="" className="navLeft upload">
             Upload
           </a>
         </div>
 
-        <div id="navright">
-          <a href="" className="navLight">
+        <div>
+          <a href="" className="navRight people">
             People
           </a>
-          <a href="" className="navLight">
+          <a href="" className="navRight projects">
             Projects
           </a>
-          <a href="" className="navLight">
+          <a href="" className="navRight archive">
             Archive
           </a>
         </div>

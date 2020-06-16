@@ -2,7 +2,7 @@
 
 #navCont{
     position: fixed;
-    font-size: 1vw;
+    font-size: 1.2vw;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -10,28 +10,61 @@
     font-weight: 500;
 }
 
-#navleft{
 
+
+
+
+
+.navLeft{
+    position: absolute;
+    color: black;
+    padding: 1vw;
+    transform-origin: center;
+    transition: 0.4s;
 }
 
-.navDark{
-    color: black;
+.navLeft:hover{
+    transform: rotateX(180deg);
 }
 
 .login{
-    position: 2vw 2vw;
+    left: 3vw;
+    top: 6vh;
 }
 
 .upload{
-    position: 98vw 2vw;
+    left: 3vw;
+    top: 90vh;
 }
 
-#navright{
+
+
+
+
+.navRight{
+    transform: rotateZ(90deg);
     color: #909090;
-    transform: rotate(90deg);
-    align-items: center;
+    position: absolute;
+    padding: 1vw;
+    transform-origin: center;
+    transition: 0.4s;
 }
 
-.navLight{
+.navRight:hover{
+    transform: rotateZ(90deg) rotateX(180deg);
+}
 
+.people{
+    top: 10vh;
+    left: 90vw;
+}
+
+.projects{
+    top: 45vh;
+    left: 89vw;
+}
+
+.archive{
+    top: 85vh;
+    left: 90vw;
 }
