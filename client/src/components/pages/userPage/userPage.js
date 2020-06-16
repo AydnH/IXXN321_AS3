@@ -5,17 +5,13 @@ export default class userPage extends React.Component {
   render() {
     return (
       <div>
-        <section>
-          <div classname = "h1"></div>
-          <h1>First Name Last Name</h1>
-          <div classname = "h3"></div>
-          <h3>Profession x
-          designer</h3>
-          <div classname = "h2"></div>
-          <h2>Featured Project</h2>
+        <section id= "UserProfile">
+         
+          <h1 className="designer-name">FIRST NAME LAST NAME</h1>
+          <h3 className="designer-profession">PROFESSION X DESIGNER</h3>
+          <h2 className="designer-projects">Featured Projects</h2>
           <img className="hero" src={placeholder} alt="placeholder"/>
-          <div classname = "p"></div>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit 
+          <p className = "synopsis"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit 
         vitae nibh. Aenean pellentesque imperdiet morbi vitae varius sed pellentesque aliquet ultricies. Dignissim 
         blandit ultrices vehicula convallis. Congue massa dui eu porttitor faucibus mi neque, venenatis. Congue massa 
         dui eu porttitor faucibus mi neque, venenatis. Congue massa dui eu porttitor faucibus mi neque, venenatis. 
@@ -24,6 +20,7 @@ export default class userPage extends React.Component {
         Congue massa dui eu porttitor faucibus mi neque, venenatis. Congue massa dui eu porttitor faucibus mi neque, 
         venenatis.</p>
         </section>
+
         <section>
         <img className="placeholder" src={placeholder} alt="placeholder"/> 
         <img className="placeholder2" src={placeholder} alt="placeholder"/> 
@@ -34,14 +31,12 @@ export default class userPage extends React.Component {
         <img className="placeholder7" src={placeholder} alt="placeholder"/> 
         <img className="placeholder8" src={placeholder} alt="placeholder"/> 
         
-        <div classname = "h4"></div>
-        <h4>project name
+        <h4 className="project-name">project name
         dd/mm/yyyy</h4>
-        <div classname = "p2"></div>
-    <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae 
+        <p className = "synopsis2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae 
         nibh. consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh. consectetur 
         adipiscing elit. 
-        Read more</p2>
+        Read more</p>
         </section>
       </div>
     );
