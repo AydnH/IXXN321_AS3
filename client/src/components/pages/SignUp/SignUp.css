@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-h1 {
+.SignUp-H1 {
     font-family: 'Roboto', sans-serif;
     font-size: 64px;
     font-weight: 900;
-    margin-bottom: none;
+    margin-bottom: 0;
     max-height: 100vh;
 }
 
-h2 {
+.SignUp-H2 {
     font-family: 'Roboto', sans-serif;
     font-size: 64px;
     font-weight: 900;
     margin-top: 0;
+    margin-right: 0;
     max-height: 100vh;
 }
 
@@ -26,7 +27,7 @@ h2 {
     
 }
 
-input {
+.SignUp-Inputs {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 36px;
@@ -53,7 +54,7 @@ input {
     flex-wrap: wrap;
 }
 
-button {
+.prof-buttons {
     border-radius: 30px;
     border-style: solid;
     border-width: 1px;
@@ -71,7 +72,29 @@ button {
     color: #9A9A9A;
 }
 
-button:focus {
+.submit-button {
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 12px;
+    background-color: white;
+    border-color: #9A9A9A;
+    color: #9A9A9A;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.prof-buttons:focus {
     color:#C71111;
     border-color:#C71111;
     outline: 0;

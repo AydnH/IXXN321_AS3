@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-h1 {
+.project-title {
     font-family: 'Roboto', sans-serif;
     font-size: 96px;
     font-weight: 500;
@@ -8,7 +8,7 @@ h1 {
     text-align: left;
 }
 
-h2 {
+.designer-name {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 400;
@@ -17,11 +17,7 @@ h2 {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-align: left;
+    
 }
 
 .container {
@@ -79,12 +75,30 @@ p {
     width: 30%;
 }
 
+.synopsis {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
 .synopsis2 {
     width: 100%;
     margin-top:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 .synopsis3 {
     width:47%;
     margin-top:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
 }
