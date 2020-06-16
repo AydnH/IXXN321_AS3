@@ -5,19 +5,22 @@ import FeatureSection from "./featureSection";
 import CoolProjects from "./CoolProjects";
 import InterestingPeople from "./InterestingPeople";
 import FilterBar from "./FilterBar";
+import IndusProjects from "./IndusProjects";
+import InterProjects from "./InterProjects";
+import MediaProjects from "./MediaProjects";
 
 
 export default class Home extends React.Component {
   render() {
     return (
 
-      <div id='homePageCont'>
+      <div className='homePageCont'>
 
         <FeatureSection/>
 
-        <div id='titleCont'>
-          <h1 id='titleVort'>VORTFOLIO's</h1>
-          <h1 id='titleFlip'>TOP PICKS</h1>
+        <div className='titleCont'>
+          <h1 className='disciplineTitle'>VORTFOLIO's</h1>
+          <h1 className='titleFlip'>TOP PICKS</h1>
         </div>
 
         <CoolProjects/>
@@ -26,23 +29,11 @@ export default class Home extends React.Component {
 
         <FilterBar/>
 
-        <section>
-          <div>
-            <h2> industrial projects</h2>
-          </div>
-        </section>
+        <IndusProjects/>
 
-        <section>
-          <div>
-            <h2> interaction projects</h2>
-          </div>
-        </section>
+        <InterProjects/>
 
-        <section>
-          <div>
-            <h2> media projects</h2>
-          </div>
-        </section>
+        <MediaProjects/>
 
         <section>
           <div>

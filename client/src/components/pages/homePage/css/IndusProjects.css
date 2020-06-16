@@ -1,0 +1,70 @@
+#IndusCont{
+    text-transform: uppercase;
+    margin: 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.IndusProjectsCont{
+    display: grid;
+    gap: 2vw;
+    margin: 0px;
+    grid-template-columns: auto auto;
+}
+
+#IndusSec2{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 2vw;
+}
+
+#IndusSec3{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2vw;
+}
+
+.IndusProject1{ background-image: url(https://media.giphy.com/media/3o6Zt5Hhky3LJddnj2/source.gif); }
+
+.IndusProject2{ background-image: url(https://media.giphy.com/media/3oEduGaYuCFIzBmvIs/source.gif); }
+
+.IndusProject3{ background-image: url(https://media.giphy.com/media/3o7ZeRBQkepXlOuD2o/source.gif); }
+
+.IndusProject4{ background-image: url(https://media.giphy.com/media/l2Sq41shhtYuUGaoo/source.gif); }
+
+/* -------------------------
+   hover effects */
+
+.IndusHoverInfo{
+    height: 90%;
+    padding: 5%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    justify-content: center;
+}
+
+.IndusHoverInfo:hover{
+    height: 80%;
+    margin: 5%;
+    opacity: 10;
+    background-color: #ffffff;
+}
+
+.IndusHoverInfo h1{
+    margin: 0px;
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    letter-spacing: 0.1em;
+}
+
+.IndusHoverInfo p{
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    font-size: 1.5vw;
+}

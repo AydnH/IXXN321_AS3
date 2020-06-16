@@ -8,24 +8,29 @@ export default function InterestingPeople() {
     return (
         <div id='InterestingPeopleCont'>
 
+            <div className='titleCont'>
+                <h1 className='disciplineTitle'>Interesting</h1>
+                <h1 className='titleFlip'>People</h1>
+            </div>
+
             <div id='IntPeopleCont'>
 
                 <div className='personCont personCont1' style={{ backgroundImage: (student1) }}>
-                    <div className='personInfo'>
+                    <div className='hoverInfo'>
                         <h1>Firstname Lastname</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh.</p>
                     </div>
                 </div>
 
                 <div className='personCont personCont2' style={{ backgroundImage: (student2) }}>
-                    <div className='personInfo'>
+                    <div className='hoverInfo'>
                         <h1>Firstname Lastname</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh.</p>
                     </div>
                 </div>
 
                 <div className='personCont personCont3' style={{ backgroundImage: (student3) }}>
-                    <div className='personInfo'>
+                    <div className='hoverInfo'>
                         <h1>Firstname Lastname</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh.</p>
                     </div>

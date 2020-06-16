@@ -1,5 +1,6 @@
 #InterestingPeopleCont{
     margin-bottom: 10vw;
+    text-align: center;
 }
 
 #IntPeopleCont{
@@ -28,8 +29,12 @@
     background-image: url(../images/student3.jpg);
 }
 
-.personInfo{
-    height: 60vh;
+
+/* -----------------------------
+   hover info */
+
+.hoverInfo{
+    height: 54vh;
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -39,14 +44,14 @@
     justify-content: center;
 }
 
-.personInfo:hover{
+.hoverInfo:hover{
     opacity: 10;
     background-color: #ffffff;
     margin: 3vh;
     height: 48vh;
 }
 
-.personInfo h1{
+.hoverInfo h1{
     margin: 0px;
     margin-bottom: 1vw;
     font-weight: bold;
@@ -54,7 +59,7 @@
     letter-spacing: 0.1em;
 }
 
-.personInfo p{
+.hoverInfo p{
     font-weight: 300;
     line-height: 150%;
     letter-spacing: 0.05em;

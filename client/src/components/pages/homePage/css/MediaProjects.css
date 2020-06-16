@@ -1,0 +1,60 @@
+#MediaCont{
+    text-transform: uppercase;
+    margin: 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#MediaProjectsCont{
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}
+
+#MediaSection2{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 2vw;
+}
+
+.MediaPro1{ background-image: url(https://media.giphy.com/media/xThtaluUHpTUz7knny/source.gif); }
+
+.MediaPro2{ background-image: url(https://media.giphy.com/media/l0HU5pC1CuCl8NFqU/source.gif); }
+
+/* -------------------------
+   hover effects */
+
+.MediaHoverInfo{
+    height: 90%;
+    padding: 5%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    justify-content: center;
+}
+
+.MediaHoverInfo:hover{
+    height: 80%;
+    margin: 5%;
+    opacity: 10;
+    background-color: #ffffff;
+}
+
+.MediaHoverInfo h1{
+    margin: 0px;
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    letter-spacing: 0.1em;
+}
+
+.MediaHoverInfo p{
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    font-size: 1.5vw;
+}

@@ -1,0 +1,58 @@
+#InterCont{
+    text-transform: uppercase;
+    margin: 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#InterProjectsCont{
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: auto auto;
+    height: 90vh;
+}
+
+.InterPro1{ background-image: url(https://media.giphy.com/media/oy83DwqHRcR1jJczV3/source.gif); }
+
+.InterPro2{ background-image: url(https://media.giphy.com/media/HUplkVCPY7jTW/source.gif); }
+
+.InterPro3{ background-image: url(https://media.giphy.com/media/2UqWA20weXLPRQW5xQ/source.gif); }
+
+.InterPro4{ background-image: url(https://media.giphy.com/media/l2Sq41shhtYuUGaoo/source.gif); }
+
+/* -------------------------
+   hover effects */
+
+   .InterHoverInfo{
+    height: 90%;
+    padding: 5%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    justify-content: center;
+}
+
+.InterHoverInfo:hover{
+    height: 80%;
+    margin: 5%;
+    opacity: 10;
+    background-color: #ffffff;
+}
+
+.InterHoverInfo h1{
+    margin: 0px;
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    letter-spacing: 0.1em;
+}
+
+.InterHoverInfo p{
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    font-size: 1.5vw;
+}
