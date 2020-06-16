@@ -30,6 +30,7 @@ function App() {
           <Route path="/userPage" exact component={userPage} />
           <Route path="/SignUp" exact component={SignUp} />
         </div>
+        <Nav />
       </div>
     </HashRouter>
   );
