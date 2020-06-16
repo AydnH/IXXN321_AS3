@@ -8,6 +8,7 @@ import FilterBar from "./FilterBar";
 import IndusProjects from "./IndusProjects";
 import InterProjects from "./InterProjects";
 import MediaProjects from "./MediaProjects";
+import GraphProjects from "./GraphProjects";
 
 
 export default class Home extends React.Component {
@@ -35,17 +36,7 @@ export default class Home extends React.Component {
 
         <MediaProjects/>
 
-        <section>
-          <div>
-            <h2> communication projects</h2>
-          </div>
-        </section>
-
-        <section>
-          <div>
-            <h2>view more</h2>
-          </div>
-        </section>
+        <GraphProjects/>
 
       </div>
     );
