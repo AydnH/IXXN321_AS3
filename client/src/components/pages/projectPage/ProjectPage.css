@@ -8,16 +8,12 @@
     text-align: left;
 }
 
-.designer-name {
+.designerName {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 400;
     margin-top: 0;
     text-align: left;
-}
-
-p {
-    
 }
 
 .container {
@@ -46,8 +42,8 @@ p {
     align-items: flex-end;
 }
 
-.hero {
-    width: 65%;
+.pr-hero {
+    max-width: 65%;
     height: auto;
     margin-right: 3%;
 }
@@ -75,7 +71,7 @@ p {
     width: 30%;
 }
 
-.synopsis {
+.project-synopsis {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -83,7 +79,7 @@ p {
     text-align: left;
 }
 
-.synopsis2 {
+.project-synopsis2 {
     width: 100%;
     margin-top:0;
     font-family: 'Roboto', sans-serif;
@@ -93,7 +89,7 @@ p {
     text-align: left;
 }
 
-.synopsis3 {
+.project-synopsis3 {
     width:47%;
     margin-top:0;
     font-family: 'Roboto', sans-serif;
