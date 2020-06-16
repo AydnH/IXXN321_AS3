@@ -6,6 +6,7 @@ import Login from "./components/pages/js/login";
 import ProjectPage from "./components/pages/js/projectPage";
 import projectUploaderPage from "./components/pages/js/projectUploadPage";
 import userPage from "../src/components/pages/userPage/userPage";
+import Nav from "../src/components/Nav/Nav";
 
 import "./App.css";
 import SignUp from "./components/pages/SignUp/SignUp";
