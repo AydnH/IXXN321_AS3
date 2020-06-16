@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 a{
     text-decoration: none;
     color: black;
@@ -6,7 +8,7 @@ a{
 
 #homePageCont{
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -17,7 +19,7 @@ a{
     justify-content: center;
 }
 
-#titleCont h1{
+#titleVort{
     font-size: 3vw;
     font-weight: bold;
     letter-spacing: 0.4em;
