@@ -1,14 +1,12 @@
 #GraphCont{
     text-transform: uppercase;
-    margin: 10vw;
+    margin: 15vw;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
 #GraphProjectsCont{
-    /* display: flex;
-    height: 40vh; */
     display: grid;
     gap: 2vw;
     grid-template-columns: auto auto auto;
