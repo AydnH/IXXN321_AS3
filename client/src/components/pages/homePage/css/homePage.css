@@ -36,14 +36,14 @@ a{
 }
 
 /* ------------------------------------
-   disciplines sections */
+   disciplines title sections */
 
 
 .titleCont{
     margin: 10vw;
     display: flex;
     justify-content: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: bold;
     letter-spacing: 0.4em;
     text-transform: uppercase;
