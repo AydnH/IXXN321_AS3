@@ -1,53 +1,44 @@
-const mongoose = require("mongoose");
-const express = require("express");
-const cors = require("cors");
-const bodyParser = require("body-parser");
-const Projects = require("./client/src/components/models/projectScheme");
-const accountProfile = require("./client/src/components/models/accountProfileScheme");
+const express = require('express');
+const app = express();
+const cors = require('cors');
 
-const dbRoute = `mongodb+srv://admin:ProjectAdmin1@cluster0-ywkdy.mongodb.net/?retryWrites=true&w=majority`;
-mongoose.connect(dbRoute, { useNewUrlParser: true, useUnifiedTopology: true });
-
-let db = mongoose.connection;
-db.once("open", () => console.log("connected to the database"));
-db.on("error", console.error.bind(console, "MongoDB connection error:"));
+app.use(express.json());
+app.use(cors());
 
 const API_PORT = process.env.PORT || 3100;
 
-const app = express();
-app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.urlencoded({ extended: false }));
+// Importing urls
+const {
+  generateGetUrl,
+  generatePutUrl
+} = require('./AWSPresigner');
 
-app.get("/", (req, res) => {
-  res.send("API LIVE");
+// GET 
+app.get('/generate-get-url', (req, res) => {
+  // Key and ContentType are defined in client 
+  // Key is name of the file.
+  const { Key } = req.query;
+  generateGetUrl(Key)
+    .then(getURL => {      
+      res.send(getURL);
+    })
+    .catch(err => {
+      res.send(err);
+    });
 });
 
-//project Upload
-app.get("/api/getProjects", (req, res) => {
-  Projects.find((err, projects) => {
-    if (err) return res.json({ success: false, error: err });
-    return res.json({ success: true, projects: projects });
+// PUT 
+app.get('/generate-put-url', (req,res)=>{
+  // Key and ContentType are defined in client 
+  // Key is name of the file.
+  // ContentType is MIME content type, image/*
+  const { Key, ContentType } =  req.query;
+  generatePutUrl(Key, ContentType).then(putURL => {
+    res.send({putURL});
+  })
+  .catch(err => {
+    res.send(err);
   });
-});
-app.post("/api/postProjects", async (req, res) => {
-  const projects = await Projects.create(req.body);
-  console.log(projects);
-  return res.json({ success: true, projects: projects });
-});
-
-//profile Upload
-app.get("/api/getProfile", (req, res) => {
-  accountProfile.find((err, accountprofile) => {
-    if (err) return res.json({ success: false, error: err });
-    return res.json({ success: true, accountprofile: accountprofile });
-  });
-});
-app.post("/api/postProfile", async (req, res) => {
-  const accountprofile = await accountProfile.create(req.body);
-  console.log(accountprofile);
-  return res.json({ success: true, accountprofile: accountprofile });
 });
 
 app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));

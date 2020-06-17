@@ -6,7 +6,7 @@ export default function CoolProjects() {
         <section id='CPCont'>
 
             <div id='Project1'>
-                <img src='https://media.giphy.com/media/l4FGpgZtKSRpbgeXK/source.gif'/>
+                <img src='https://media.giphy.com/media/l4FGpgZtKSRpbgeXK/source.gif' alt=""/>
                 <div id='Project1Text'>
                     <div className='lineDiv'></div>
                     <h1>Project name</h1>
@@ -24,7 +24,7 @@ export default function CoolProjects() {
                     <h3>industrial design</h3>
                     <div className='lineDiv'></div>
                 </div>
-                <img src='https://media.giphy.com/media/3oEdv3bCFCHj3kRcXe/source.gif'/>
+                <img src='https://media.giphy.com/media/3oEdv3bCFCHj3kRcXe/source.gif' alt=""/>
             </div>
 
             <div id='Project3'>
@@ -32,7 +32,7 @@ export default function CoolProjects() {
                     <h1>Project name</h1>
                     <h1>DD/MMMM/YYYY</h1>
                 </div>
-                <img src='https://media.giphy.com/media/jIIlWEJOC9Xgs/source.gif'/>
+                <img src='https://media.giphy.com/media/jIIlWEJOC9Xgs/source.gif' alt=""/>
                 <div id='Project3Text'>
                     <div className='lineDiv'></div>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque.</h2>
