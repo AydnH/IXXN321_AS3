@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.project-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    font-weight: 500;
+    margin-top: 10vw;
+    margin-bottom: 5%;
+    text-align: left;
+    width: 100%;
+}
+
+.designerName {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: left;
+    width: 35.5%;
+    margin-right: 3%;
+}
+
+.container {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-flex {
+    display: flex;
+    width: 100%;
+}
+
+.section {
+    margin-bottom: 10%;
+}
+
+.flexcontainer {
+    display: flex;
+}
+
+.flexcontainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexcontainer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.pr-hero {
+    max-width: 65%;
+    height: auto;
+    margin-right: 3%;
+}
+
+.lrg-img {
+    width: 65%;
+}
+
+.sml-img {
+    width: 47%;
+    
+}
+
+.med-img {
+    height:47%;
+    justify-content: space-between;
+    
+}
+
+.micro-img {
+    width: 90%;
+    height: auto;
+}
+
+.portrait {
+    width: 30%;
+}
+
+.synopsis-input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    resize: none;
+    padding: 1.5%;
+}
+
+.synopsis-input2 {
+    width: 96.8%;
+    margin-top:0;
+    padding: 1.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+}
+
+.synopsis-input3 {
+    width:47%;
+    margin-top:0;
+    padding: 1.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+}
+
+.synopsis-input4 {
+    width:97%;
+    height: 7vw;
+    padding: 1.5%;
+    margin-top:1%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+}

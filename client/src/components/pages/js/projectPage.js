@@ -8,8 +8,7 @@ export default class ProjectPage extends React.Component {
     return (
       <div>
         <section>
-          <h1>project page</h1>
-          <h2>layout 1, 2 or 3</h2>
+          
           <ProjectPage1/>
           <ProjectPage2/>
           <ProjectPage3/>
