@@ -12,7 +12,7 @@ export default class DisplayImage extends Component {
     const options = {
       params: {
         Key: filename,
-        ContentType: 'image/jpeg'
+        ContentType: 'image/*'
       }
     };
     axios.get(generateGetUrl, options).then(res => {

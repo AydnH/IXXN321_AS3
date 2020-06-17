@@ -11,7 +11,7 @@ export default class SubmitForm extends React.Component {
       <div className="submissionFormMaster">
           <Uploader />
           <hr/>
-          <DisplayImage />
+          {/* <DisplayImage /> */}
       </div>
     );
   }

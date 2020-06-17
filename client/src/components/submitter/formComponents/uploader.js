@@ -12,13 +12,17 @@ export default class Uploader extends Component {
       const file = files[0];
       this.setState({ file });
     }
+  
   };
 
   uploadFile = e => {
     e.preventDefault();
     const { file } = this.state;
     this.setState({message:'Uploading...'})
-    const contentType = file.type; // eg. image/jpeg or image/svg+xml
+    console.log(file);
+  
+    console.log(file);
+    const contentType = file.type; // img*
 
     const generatePutUrl = 'http://localhost:3100/generate-put-url';
     const options = {
@@ -54,7 +58,7 @@ export default class Uploader extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Upload A project</h1>
+
         <input
           id='upload-image'
           type='file'
