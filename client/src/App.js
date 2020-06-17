@@ -18,7 +18,7 @@ function App() {
   return (
     <HashRouter basename="/">
       <div className="App">
-        <Redirect from="/" to="/Home" />
+        {/* <Redirect from="/" to="/Home" /> */}
         <div className="appBody">
           {/* page components render in here */}
           <Nav />
