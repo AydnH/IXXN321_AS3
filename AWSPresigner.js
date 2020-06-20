@@ -5,7 +5,7 @@ const AWS = require('aws-sdk');
 AWS.config = new AWS.Config({
   accessKeyId: process.env.S3_KEY, 
   secretAccessKey: process.env.S3_SECRET, 
-  region: process.env.BUCKET_REGION 
+  region: process.env.BUCKET_REGION, 
 });
 
 // Creating a S3 instance

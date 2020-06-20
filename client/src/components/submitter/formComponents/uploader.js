@@ -34,7 +34,7 @@ export default class Uploader extends Component {
         'Content-Type': contentType
       }
     };
-
+console.log(options)
     axios.get(generatePutUrl, options).then(res => {
       const {
         data: { putURL }
@@ -53,6 +53,7 @@ export default class Uploader extends Component {
           console.log('err', err);
         });
     });
+    console.log(this.data)
   };
 
   render() {
