@@ -7,7 +7,7 @@
     margin-top: 10vw;
     margin-bottom: 5%;
     text-align: left;
-    width: 100%;
+    max-width: 100%;
 }
 
 .designerName {
@@ -18,80 +18,135 @@
     text-align: left;
     width: 35.5%;
     margin-right: 3%;
-}
 
+}
 .container {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
-
 .name-flex {
-    display: flex;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-
 .section {
     margin-bottom: 10%;
 }
-
-.flexcontainer {
-    display: flex;
+.flexcontainer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
 }
-
-.flexcontainer2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.flexcontainer3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
 .pr-hero {
-    max-width: 65%;
-    height: auto;
-    margin-right: 3%;
+    max-width: 100%;
 }
-
-.lrg-img {
-    width: 65%;
-}
-
-.sml-img {
-    width: 47%;
-    
-}
-
-.med-img {
-    height:47%;
-    justify-content: space-between;
-    
-}
-
-.micro-img {
-    width: 90%;
-    height: auto;
-}
-
-.portrait {
-    width: 30%;
-}
-
 .synopsis-input {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 18px;
     text-transform: uppercase;
     text-align: left;
-    width: 100%;
     resize: none;
-    padding: 1.5%;
+    
 }
-
+.flexcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1.5fr 1fr;
+    grid-gap: 1em;
+}
+.sml-img1 {
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 100%;
+}
+.sml-img2 {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 100%;
+}
+.synopsis-input4 {
+    max-width:97%;
+    height: 7vw;
+    padding: 1.5%;
+    margin-top:1%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+    grid-row: 2;
+    grid-column: 1 / 2;
+}
+.flexcontainer3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.lrg-img {
+    grid-column: 1;
+    width: 100%;
+}
+.flexcontainer4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+.container4-image{
+    grid-column: 1;
+    width: 100%;
+}
+.synopsis-input3 {
+    width:97%;
+    margin-top:0;
+    padding: 1.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+    grid-column: 2;
+    grid-row: 1;
+}
+.flexcontainer5 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1;
+    grid-gap: 1em;
+}
+.container5-image{
+    width: 100%;
+    grid-column: 1;
+}
+.micro-img1 {
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1;
+}
+.micro-img2 {
+    width: 100%;
+    grid-column: 2;
+    grid-row: 2;
+}
+.flexcontainer6 {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.med-img {
+    height:47%;
+    justify-content: space-between;
+    position: relative;
+}
+.portrait {
+    width: 30%;
+    position: relative;
+}
 .synopsis-input2 {
     width: 96.8%;
     margin-top:0;
@@ -103,28 +158,25 @@
     text-align: left;
     resize: none;
 }
-
-.synopsis-input3 {
-    width:47%;
-    margin-top:0;
-    padding: 1.5%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-align: left;
-    resize: none;
+.upload-image{
+    left: 17.5%;
+    z-index: 0;
+    position: absolute;
 }
-
-.synopsis-input4 {
-    width:97%;
-    height: 7vw;
-    padding: 1.5%;
-    margin-top:1%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-align: left;
-    resize: none;
+.upload-image-button{
+    position: absolute;
+    left: 37%;
+    z-index: 0;
+}
+.sml-img-upload{
+    position: absolute;
+    left:17.5%;
+}
+.sml-img-upload2{
+    position: absolute;
+    left: 51%;
+}
+.lrg-img-upload{
+    position: absolute;
+    left: 50%;
 }

@@ -1,26 +1,39 @@
 import React, { Component } from "react";
 import "./ProjectUpload.css";
 // import PRupload from './forms/pr-hero'
-// import landscape from "./images/placeholder.png";
+import landscape from "./images/placeholder.png";
 import axios from "axios";
 
 export default class ProjectUpload1 extends React.Component {
   state = {
     message: "",
-
+    image1: landscape,
+    image2: landscape,
+    image3: landscape,
+    image4: landscape,
+    image5: landscape,
+    image6: landscape,
+    image7: landscape,
+    image8: landscape,
   };
   placeholder = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh. Aenean pellentesque imperdiet morbi vitae varius sed pellentesque aliquet ultricies. Dignissim blandit ultrices vehicula convallis. Congue massa dui eu porttitor faucibus mi neque, venenatis. Congue massa dui eu. ';
+  // getImage = e => {
+  //   console.log(e.target)
+  //   const files = e.target.files;
+  //   if (files && files.length > 0) {
+  //     const file = files[0];
+  //     this.setState({ file,
+  //       file: URL.createObjectURL(e.target.files[0])
+  //      });
+  //   }
+  // };
   
   getImage = e => {
-    console.log(e.target)
-    const files = e.target.files;
-    if (files && files.length > 0) {
-      const file = files[0];
-      this.setState({ file,
-        file: URL.createObjectURL(e.target.files[0])
-       });
-    }
-  };
+    const { name, files } = e.target;
+    this.setState({
+      [name]: URL.createObjectURL(e.target.files[0]),
+    });
+  }
 
   uploadFile = e => {
     e.preventDefault();
@@ -69,11 +82,13 @@ console.log(options)
     return (
       <div className="container">
         <div className="section">
+
           <input
             className="project-title"
             type="text"
             placeholder="PROJECT TITLE"
-          ></input>
+          />
+
           <div className="name-flex">
             <input
               className="designerName"
@@ -86,112 +101,95 @@ console.log(options)
               placeholder="LAST NAME "
             ></input>
           </div>
-        </div>
+          <div/>
+
         
-
         <div className="section">
-          <div className="flexcontainer">
-
-            {/* <React.Fragment> */}
-              {/* <img className="pr-hero" src={landscape} alt="placeholder" /> */}
-              <img className="pr-hero" src={this.state.file}/>
-              <form onSubmit={this.uploadFile}>
+          <div className="flexcontainer1">
+              <img className="pr-hero" src={this.state.image1}/>
+              <form onSubmit={this.uploadFile} >
               <input
-                className="pr-hero"
+                className="upload-image"
+                name="image1"
                 id="upload-image"
                 type="file"
                 accept="image/*"
-                
                 onChange={this.getImage}
               />
-              <button id="file-upload-button">Upload</button>
-              </form>
-              {/* <p>{this.state.message}</p> */}
-            {/* </React.Fragment> */}
+            </form>
             <textarea
               className="synopsis-input"
               rows="8"
               placeholder={this.placeholder}
-            ></textarea>
-                      
-
+            />
           </div>
         </div>
 
         <div className="section">
           <div className="flexcontainer2">
-            {/* <React.Fragment> */}
+            <img className="sml-img1" src={this.state.image2}/>
             <form onSubmit={this.uploadFile}>
               <input
-                className="sml-img"
+                name="image2"
+                className="sml-img-upload"
+                id="upload-image"
+                type="file"
+                accept="image/*"
+                onChange={this.getImage}
+              />
+          </form>
+            <img className="sml-img2" src={this.state.image3}/>
+            <form onSubmit={this.uploadFile}>
+              <input
+                name="image3"
+                className="sml-img-upload2"
                 id="upload-image"
                 type="file"
                 accept="image/*"
 
                 onChange={this.getImage}
               />
-              <p>{this.state.message}</p>
-              <button id="file-upload-button">Upload</button>
           </form>
-            {/* </React.Fragment> */}
-            {/* <React.Fragment> */}
-            <form onSubmit={this.uploadFile}>
-              <input
-                className="sml-img"
-                id="upload-image"
-                type="file"
-                accept="image/*"
-
-                onChange={this.getImage}
-              />
-              <p>{this.state.message}</p>
-              <button id="file-upload-button">Upload</button>
-          </form>
-            {/* </React.Fragment> */}
-            {/* <img className="sml-img" src={landscape} alt="placeholder" />
-            <img className="sml-img" src={landscape} alt="placeholder" /> */}
-          </div>
-          {/* <React.Fragment> */}
             <textarea
               className="synopsis-input4"
               placeholder={this.placeholder}
-            ></textarea>
-          {/* </React.Fragment> */}
+            />
+
+            </div>
         </div>
 
         <div className="section">
-          {/* <React.Fragment> */}
+        <div className="flexcontainer3">
+          <img className="lrg-img" src={this.state.image4}/>
           <form onSubmit={this.uploadFile}>
             <input
-              className="sml-img"
+              name="image4"
+              className="lrg-img-upload"
               id="upload-image"
               type="file"
               accept="image/*"
               onChange={this.getImage}
             />
-            <p>{this.state.message}</p>
-            <button id="file-upload-button">Upload</button>
+            {/* <button id="file-upload-button">Upload</button> */}
           </form>
-          {/* </React.Fragment> */}
           {/* <img src={landscape} alt="placeholder" /> */}
+          </div>
         </div>
 
         <div className="section">
-          <div className="flexcontainer2">
-            {/* <React.Fragment> */}
+          <div className="flexcontainer4">
+            <img className="container4-image" src={this.state.image5}/>
             <form onSubmit={this.uploadFile}>
               <input
-                className="sml-img"
+                name="image5"
+                className="sml-img-upload"
                 id="upload-image"
                 type="file"
                 accept="image/*"
                 onChange={this.getImage}
               />
-              {/* <p>{this.state.message}</p> */}
-              <button id="file-upload-button">Upload</button>
+              {/* <button id="file-upload-button">Upload</button> */}
           </form>
-            {/* </React.Fragment> */}
-            {/* <img className="sml-img" src={landscape} alt="placeholder" /> */}
             <textarea
               className="synopsis-input3"
               rows="6"
@@ -200,59 +198,50 @@ console.log(options)
         </div>
 
         <div className="section">
-          <div className="flexcontainer2">
-            {/* <React.Fragment> */}
+          <div className="flexcontainer5">
+            <img className="container5-image" src={this.state.image6}/>
             <form onSubmit={this.uploadFile}>
               <input
-                className="pr-hero"
+                name="image6"
+                className="upload-image"
                 id="upload-image"
                 type="file"
                 accept="image/*"
                 onChange={this.getImage}
               />
-              <p>{this.state.message}</p>
-              <button id="file-upload-button">Upload</button>
+
           </form>
-            {/* </React.Fragment> */}
-            {/* <img className="pr-hero" src={landscape} alt="placeholder" /> */}
-            <div className="flexcontainer3">
-              {/* <React.Fragment> */}
+          <div className="flexcontainer6">
+              <img className="micro-img1" src={this.state.image7}/>
               <form onSubmit={this.uploadFile}>
                 <input
-                  className="micro-img"
+                  name="image7"
+                  className="micro-img-upload"
+                  id="upload-image"
+                  type="file"
+                  accept="image/*"
+                  onChange={this.getImage}
+                />
+          </form>
+              <img className="micro-img2" src={this.state.image8}/>
+              <form onSubmit={this.uploadFile}>
+                <input
+                  name="image8"
+                  className="micro-img-upload"
                   id="upload-image"
                   type="file"
                   accept="image/*"
 
                   onChange={this.getImage}
                 />
-                <p>{this.state.message}</p>
-                <button id="file-upload-button">Upload</button>
-          </form>
-              {/* </React.Fragment> */}
-              {/* <React.Fragment> */}
-              <form onSubmit={this.uploadFile}>
-                <input
-                  className="micro-img"
-                  id="upload-image"
-                  type="file"
-                  accept="image/*"
 
-                  onChange={this.getImage}
-                />
-                <p>{this.state.message}</p>
-                <button id="file-upload-button">Upload</button>
           </form>
-              {/* </React.Fragment> */}
-              {/* <img className="micro-img" src={landscape} alt="placeholder" />
-              <img className="micro-img" src={landscape} alt="placeholder" /> */}
-
-            </div>
+          </div>
           </div>
 
         </div>
       </div>
-
+      </div>
     );
   }
 }
