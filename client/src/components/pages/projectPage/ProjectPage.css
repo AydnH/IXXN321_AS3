@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-.project-title {
+.pp-project-title {
     font-family: 'Roboto', sans-serif;
     font-size: 96px;
     font-weight: 500;
@@ -8,7 +8,7 @@
     text-align: left;
 }
 
-.designerName {
+.pp-designerName {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 400;
@@ -16,62 +16,62 @@
     text-align: left;
 }
 
-.container {
+.pp-cont {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.section {
+.pp-section {
     margin-bottom: 10%;
 }
 
-.flexcontainer {
+.pp-flexcontainer {
     display: flex;
 }
 
-.flexcontainer2 {
+.pp-flexcontainer2 {
     display: flex;
     justify-content: space-between;
 }
 
-.flexcontainer3 {
+.pp-flexcontainer3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.pr-hero {
+.pp-pr-hero {
     max-width: 65%;
     height: auto;
     margin-right: 3%;
 }
 
-.lrg-img {
+.pp-lrg-img {
     width: 65%;
 }
 
-.sml-img {
+.pp-sml-img {
     width: 47%;
     
 }
 
-.med-img {
+.pp-med-img {
     width:80%;
     
 }
 
-.micro-img {
+.pp-micro-img {
     width: 80%;
     height: auto;
 }
 
-.portrait {
+.pp-portrait {
     width: 30%;
 }
 
-.project-synopsis {
+.pp-project-synopsis {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -79,7 +79,7 @@
     text-align: left;
 }
 
-.project-synopsis2 {
+.pp-project-synopsis2 {
     width: 100%;
     margin-top:0;
     font-family: 'Roboto', sans-serif;
@@ -89,7 +89,7 @@
     text-align: left;
 }
 
-.project-synopsis3 {
+.pp-project-synopsis3 {
     width:47%;
     margin-top:0;
     font-family: 'Roboto', sans-serif;

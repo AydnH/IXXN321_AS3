@@ -4,13 +4,14 @@
     font-family: 'Roboto', sans-serif;
     font-size: 96px;
     font-weight: 500;
-    margin-top: 10vw;
     margin-bottom: 5%;
     text-align: left;
-    max-width: 100%;
+    width: 100%;
+    margin-top:10vh;
+
 }
 
-.designerName {
+.designerNames {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 400;

@@ -7,13 +7,10 @@ export default class ProjectPage extends React.Component {
   render() {
     return (
       <div>
-        <section>
-          
+          &nbsp;
           <ProjectPage1/>
           <ProjectPage2/>
           <ProjectPage3/>
-          
-        </section>
       </div>
     );
   }

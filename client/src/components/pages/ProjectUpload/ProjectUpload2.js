@@ -10,8 +10,8 @@ export default class ProjectUpload2 extends React.Component {
                 <div className="section">
                     <input className="project-title" type="text" placeholder="PROJECT TITLE"></input>
                     <div className="name-flex">
-                        <input className="designerName" type="text" placeholder="FIRST NAME "></input>
-                        <input className="designerName" type="text" placeholder="LAST NAME "></input>
+                        <input className="designerNames" type="text" placeholder="FIRST NAME "></input>
+                        <input className="designerNames" type="text" placeholder="LAST NAME "></input>
                     </div>
                 </div>
 
