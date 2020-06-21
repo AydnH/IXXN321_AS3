@@ -107,8 +107,9 @@ console.log(options)
         
         <div className="section">
           <div className="flexcontainer1">
-              <img className="pr-hero" src={this.state.image1}/>
+              {/* <img className="pr-hero" src={this.state.image1}/> */}
               <form onSubmit={this.uploadFile} >
+              <label htmlFor="upload-image" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image1}")`}}>Upload File</label>    
               <input
                 className="upload-image"
                 name="image1"
@@ -128,23 +129,25 @@ console.log(options)
 
         <div className="section">
           <div className="flexcontainer2">
-            <img className="sml-img1" src={this.state.image2}/>
+            {/* <img className="sml-img1" src={this.state.image2}/> */}
             <form onSubmit={this.uploadFile}>
+            <label htmlFor="sml-img-upload" className="custom-file-upload2" style={{"backgroundImage": `url("${this.state.image2}")`}}>Upload File</label>
               <input
                 name="image2"
                 className="sml-img-upload"
-                id="upload-image"
+                id="sml-img-upload"
                 type="file"
                 accept="image/*"
                 onChange={this.getImage}
               />
           </form>
-            <img className="sml-img2" src={this.state.image3}/>
+            {/* <img className="sml-img2" src={this.state.image3}/> */}
             <form onSubmit={this.uploadFile}>
+            <label htmlFor="sml-img-upload2" className="custom-file-upload2" style={{"backgroundImage": `url("${this.state.image3}")`}}>Upload File</label>
               <input
                 name="image3"
                 className="sml-img-upload2"
-                id="upload-image"
+                id="sml-img-upload2"
                 type="file"
                 accept="image/*"
 
@@ -161,12 +164,13 @@ console.log(options)
 
         <div className="section">
         <div className="flexcontainer3">
-          <img className="lrg-img" src={this.state.image4}/>
+          {/* <img className="lrg-img" src={this.state.image4}/> */}
           <form onSubmit={this.uploadFile}>
+          <label htmlFor="lrg-img-upload" className="custom-file-upload3" style={{"backgroundImage": `url("${this.state.image4}")`}}>Upload File</label>
             <input
               name="image4"
               className="lrg-img-upload"
-              id="upload-image"
+              id="lrg-img-upload"
               type="file"
               accept="image/*"
               onChange={this.getImage}
@@ -179,12 +183,13 @@ console.log(options)
 
         <div className="section">
           <div className="flexcontainer4">
-            <img className="container4-image" src={this.state.image5}/>
+            {/* <img className="container4-image" src={this.state.image5}/> */}
             <form onSubmit={this.uploadFile}>
+            <label htmlFor="sml-img-upload" className="custom-file-upload2" style={{"backgroundImage": `url("${this.state.image5}")`}}>Upload File</label>
               <input
                 name="image5"
                 className="sml-img-upload"
-                id="upload-image"
+                id="sml-img-upload"
                 type="file"
                 accept="image/*"
                 onChange={this.getImage}
@@ -200,8 +205,9 @@ console.log(options)
 
         <div className="section">
           <div className="flexcontainer5">
-            <img className="container5-image" src={this.state.image6}/>
+            {/* <img className="container5-image" src={this.state.image6}/> */}
             <form onSubmit={this.uploadFile}>
+            <label htmlFor="upload-image" className="custom-file-upload2" style={{"backgroundImage": `url("${this.state.image6}")`}}>Upload File</label>
               <input
                 name="image6"
                 className="upload-image"
@@ -213,23 +219,25 @@ console.log(options)
 
           </form>
           <div className="flexcontainer6">
-              <img className="micro-img1" src={this.state.image7}/>
+              {/* <img className="micro-img1" src={this.state.image7}/> */}
               <form onSubmit={this.uploadFile}>
+              <label htmlFor="micro-img-upload" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image7}")`}}>Upload File</label>
                 <input
                   name="image7"
                   className="micro-img-upload"
-                  id="upload-image"
+                  id="micro-img-upload"
                   type="file"
                   accept="image/*"
                   onChange={this.getImage}
                 />
           </form>
-              <img className="micro-img2" src={this.state.image8}/>
+              {/* <img className="micro-img2" src={this.state.image8}/> */}
               <form onSubmit={this.uploadFile}>
+              <label htmlFor="micro-img-upload" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image8}")`}}>Upload File</label>
                 <input
                   name="image8"
                   className="micro-img-upload"
-                  id="upload-image"
+                  id="micro-img-upload"
                   type="file"
                   accept="image/*"
 
