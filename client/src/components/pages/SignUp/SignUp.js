@@ -25,7 +25,7 @@ export default class SignUp extends React.Component {
                         <button className="prof-buttons">User Experience</button>    
                     </div>
 
-                    <input className="SignUp-Inputs" type="text" placeholder="BIOGRAPHY"></input>
+                    <textarea maxLength="200" className="SignUp-Inputs" placeholder="BIOGRAPHY"></textarea>
                     <button className="submit-button">SUBMIT</button>
                 </div>
             </div>
