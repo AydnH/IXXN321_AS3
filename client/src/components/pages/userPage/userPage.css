@@ -1,183 +1,223 @@
 .UserProfile {
-    display: grid;
-    margin: 10vw;
+	display: grid;
+	margin: 20vw;
+}
+
+.UserProject {
+	display: grid;
+	margin: 30vw;
 }
 
 .designer-name {
-    position: absolute;
-    width: 540.22px;
-    height: 44.27px;
-    left: 780.07px;
-    top: 120px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.1em;
-    text-indent: 4px;
-    text-transform: uppercase;
+	position: absolute;
+	width: 540.22px;
+	height: 44.27px;
+	left: 780.07px;
+	top: 120px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	letter-spacing: 0.1em;
+	text-indent: 4px;
+	text-transform: uppercase;
 }
-.designer-profession{
-position: absolute;
-width: 540.22px;
-height: 205.07px;
-left: 780px;
-top: 198px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 72px;
-line-height: 84px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
+.designer-profession {
+	position: absolute;
+	width: 540.22px;
+	height: 205.07px;
+	left: 780px;
+	top: 198px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 72px;
+	line-height: 84px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
 }
+
 .synopsis {
-position: absolute;
-width: 537px;
-height: 535px;
-left: 783px;
-top: 437px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 36px;
-/* or 200% */
-
-text-transform: uppercase;
-
-color: #000000;
+	position: absolute;
+	width: 537px;
+	height: 535px;
+	left: 783px;
+	top: 437px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 36px;
+	/* or 200% */
+	text-transform: uppercase;
+	color: #000000;
 }
 
-.designer-projects{
-
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-    display: flex;
-    padding-left:120px;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
+.designer-projects {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	display: flex;
+	padding-left: 120px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .project-name {
-
-    position: absolute;
-    width: 375.12px;
-    height: 113.62px;
-    left: 944.88px;
-    top: 3320.41px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
+	position: absolute;
+	width: 375.12px;
+	height: 113.62px;
+	left: 944.88px;
+	top: 3320.41px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
 }
 
-.synopsis2{
-    position: absolute;
-    width: 375px;
-    height: 246px;
-    left: 945px;
-    top: 3469px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 36px;
-    /* or 200% */
-    
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    
+.synopsis2 {
+	position: absolute;
+	width: 375px;
+	height: 246px;
+	left: 945px;
+	top: 3469px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 36px;
+	/* or 200% */
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
 }
 
 .hero {
-    position: absolute;
-    width: 592px;
-    height: 851.88px;
-    left: 117px;
-    top: 120px;
+	position: absolute;
+	width: 592px;
+	height: 851.88px;
+	left: 117px;
+	top: 120px;
 }
 
 .placeholder {
-    position: absolute;
-    width: 572px;
-    height: 1043px;
-    left: 117px;
-    top: 1182px;
+	position: absolute;
+	width: 572px;
+	height: 1043px;
+	left: 117px;
+	top: 1182px;
 }
 
 .placeholder2 {
-    position: absolute;
-    width: 571px;
-    height: 1043px;
-    left: 750px;
-    top: 1182px;
-    }
+	position: absolute;
+	width: 571px;
+	height: 1043px;
+	left: 750px;
+	top: 1182px;
+}
 
-    
 .placeholder3 {
-    position: absolute;
-    width: 375px;
-    height: 719px;
-    left: 118px;
-    top: 2279px;
-    }
+	position: absolute;
+	width: 375px;
+	height: 719px;
+	left: 118px;
+	top: 2279px;
+}
 
- .placeholder4 {
-    position: absolute;
-    width: 374px;
-    height: 719px;
-    left: 533px;
-    top: 2279px;
-    }
+.placeholder4 {
+	position: absolute;
+	width: 374px;
+	height: 719px;
+	left: 533px;
+	top: 2279px;
+}
 
 .placeholder5 {
-    position: absolute;
-    width: 375px;
-    height: 719px;
-    left: 946px;
-    top: 2279px;
-     }
+	position: absolute;
+	width: 375px;
+	height: 719px;
+	left: 946px;
+	top: 2279px;
+}
 
 .placeholder6 {
-    position: absolute;
-    width: 374.22px;
-    height: 717.77px;
-    left: 118px;
-    top: 3038px;
+	position: absolute;
+	width: 374.22px;
+	height: 717.77px;
+	left: 118px;
+	top: 3038px;
 }
 
 .placeholder7 {
-    position: absolute;
-    width: 374.22px;
-    height: 717.77px;
-    left: 531.89px;
-    top: 3038px;
+	position: absolute;
+	width: 374.22px;
+	height: 717.77px;
+	left: 531.89px;
+	top: 3038px;
+}
 
-    }
-               
 .placeholder8 {
+	position: absolute;
+	width: 375.12px;
+	height: 717.77px;
+	left: 944.88px;
+	top: 3038px;
+}
+
+.Hover {
+	height: 54vh;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	opacity: 0;
+	transition: 0.4s;
+	padding: 3vh;
+	justify-content: center;
+}
+
+.Hover:hover {
+	opacity: 100;
+	margin: 3vh;
+	height: 0vh;
+}
+
+.Hover h4 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.Hover p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 36px;
+	/* or 200% */
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.Hover .placeholder8 {
     position: absolute;
-    width: 375.12px;
-    height: 317.41px;
-    left: 944.88px;
-    top: 3038px;
- }
-               
-        
+	width: 375.12px;
+	height: 317.41px;
+	left: 944.88px;
+	top: 3038px;
+}
