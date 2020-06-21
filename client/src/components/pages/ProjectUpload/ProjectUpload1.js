@@ -67,6 +67,7 @@ console.log(options)
 
   render() {
     return (
+        
       <div className="container">
         <div className="section">
           <input
@@ -76,12 +77,12 @@ console.log(options)
           ></input>
           <div className="name-flex">
             <input
-              className="designerName"
+              className="designerNames"
               type="text"
               placeholder="FIRST NAME "
             ></input>
             <input
-              className="designerName"
+              className="designerNames"
               type="text"
               placeholder="LAST NAME "
             ></input>
