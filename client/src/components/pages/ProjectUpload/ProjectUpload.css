@@ -138,6 +138,7 @@
     grid-row: 1;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
 }
 .med-img {
     height:47%;
@@ -180,4 +181,37 @@
 .lrg-img-upload{
     position: absolute;
     left: 50%;
+}
+.flexcontainer7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    grid-template-rows: 1fr;
+}
+.synopsis-input5{
+    width:97%;
+    margin-top:0;
+    padding: 1.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+    grid-column: 1;
+    grid-row: 1;
+}
+.flexcontainer8{
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+}
+.container8-image1{
+    width: 100%;
+    grid-row: 1;
+}
+.container8-image2{
+    width: 100%;
+    grid-row: 2;
 }
