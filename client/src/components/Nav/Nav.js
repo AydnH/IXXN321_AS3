@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 // import Home from "../pages/homePage/js/homePage";
@@ -14,29 +15,19 @@ export default class Nav extends React.Component {
     return (
       <div id="navCont">
         <div>
+          <Link className="navLeft login" to="/Login">
+            LOGIN
+          </Link>
 
-            <a className="navLeft login">
-                LOGIN
-                <Route path="/Login" exact component={Login} />
-            </a>
-
-            <a className="navLeft upload">
-                Upload
-                <Route path="/projectUploaderPage" exact component={projectUploaderPage} />
-            </a>
-
+          <Link className="navLeft upload" to="/projectUploaderPage">
+            Upload
+          </Link>
         </div>
 
         <div>
-          <a href="" className="navRight people">
-            People
-          </a>
-          <a href="" className="navRight projects">
-            Projects
-          </a>
-          <a href="" className="navRight archive">
-            Archive
-          </a>
+          <Link className="navRight people">People</Link>
+          <Link className="navRight projects">Projects</Link>
+          <Link className="navRight archive">Archive</Link>
         </div>
       </div>
     );
