@@ -2,14 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-// import Home from "../pages/homePage/js/homePage";
-import Login from "../pages/SignUp/SignUp";
-// import ProjectPage from "./pages/js/projectPage";
-import projectUploaderPage from "../pages/js/projectUploadPage";
-// import userPage from "./pages/userPage/userPage";
-
-import { HashRouter, Route, Redirect } from "react-router-dom";
-
 export default class Nav extends React.Component {
   render() {
     return (
