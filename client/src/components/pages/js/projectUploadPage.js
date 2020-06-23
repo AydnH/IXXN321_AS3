@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProjectUpload1 from "../ProjectUpload/ProjectUpload1";
 import ProjectUpload2 from "../ProjectUpload/ProjectUpload2";
 import ProjectUpload3 from "../ProjectUpload/ProjectUpload3";
@@ -8,6 +9,8 @@ export default class projectUploaderPage extends React.Component {
     super(props);
     this.state = { mounted: null };
     this.handleClick = this.handleClick.bind(this);
+    const data = [this.state];
+    console.log(data);
   }
 
   handleClick = (e) => {
@@ -55,6 +58,15 @@ export default class projectUploaderPage extends React.Component {
   };
 
   render() {
-    return <this.OnShow />;
+    return (
+      <div>
+        <this.OnShow />
+        <div>
+          <button className="prof-buttons" onClick={this.handleSend}>
+            Save
+          </button>
+        </div>
+      </div>
+    );
   }
 }
