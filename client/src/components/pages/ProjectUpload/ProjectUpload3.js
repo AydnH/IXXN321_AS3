@@ -52,7 +52,6 @@ export default class ProjectPage3 extends React.Component {
                 <div className="section">
                     <div className="flexcontainer3">
                         <form onSubmit={this.uploadFile} >
-                        {/* <img className="lrg-img" src={landscape} alt="placeholder"/> */}
                             <label htmlFor="upload-image" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image1}")`}}>Upload File</label>    
                             <input
                                 className="upload-image"
@@ -69,7 +68,6 @@ export default class ProjectPage3 extends React.Component {
                 <div className="section">
                     <div className="flexcontainer1">
                         <form onSubmit={this.uploadFile} >
-                            {/* <img className="pr-hero" src={landscape} alt="placeholder"/> */}
                             <label htmlFor="upload-image2" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image2}")`}}>Upload File</label>
                             <input
                                 className="upload-image2"
@@ -81,7 +79,7 @@ export default class ProjectPage3 extends React.Component {
                             />
                         </form>
 
-                        <textarea className="synopsis-input" 
+                        <textarea className="synopsis-input3" 
                         placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh. Aenean pellentesque imperdiet morbi vitae varius sed pellentesque aliquet ultricies. Dignissim blandit ultrices vehicula convallis. Congue massa dui eu porttitor faucibus mi neque, venenatis. Congue massa dui eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ">
                         </textarea>
                     </div>
@@ -127,16 +125,16 @@ export default class ProjectPage3 extends React.Component {
                                     onChange={this.getImage}
                                 />
                         </form>
-
-                    </div>
-                    <textarea className="synopsis-input2" 
+                        <textarea className="synopsis-input4" 
                         placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh.">
                     </textarea>
+
+                    </div>
+                    
                 </div>
 
                 <div className="section">
-                    <div className="flexcontainer1">
-                        {/* <img className="portrait" src={portrait} alt="placeholder"/> */}
+                    <div className="flexcontainer10">
                         <form onSubmit={this.uploadFile} >
                             <label htmlFor="upload-image6" className="custom-file-upload4" style={{"backgroundImage": `url("${this.state.image6}")`}}>Upload File</label>
                             <input
@@ -149,7 +147,6 @@ export default class ProjectPage3 extends React.Component {
                             />
                         </form>
 
-                        {/* <img className="pr-hero" src={landscape} alt="placeholder"/> */}
                         <form onSubmit={this.uploadFile} >
                             <label htmlFor="upload-image7" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image7}")`}}>Upload File</label>
                             <input
@@ -166,7 +163,6 @@ export default class ProjectPage3 extends React.Component {
 
                 <div className="section">
                     <div className="flexcontainer1">
-                        {/* <img className="pr-hero" src={landscape} alt="placeholder"/> */}
                         <form onSubmit={this.uploadFile} >
                             <label htmlFor="upload-image8" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image8}")`}}>Upload File</label>
                             <input

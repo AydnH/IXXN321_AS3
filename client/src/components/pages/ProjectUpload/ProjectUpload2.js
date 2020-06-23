@@ -52,7 +52,6 @@ export default class ProjectUpload2 extends React.Component {
                     <div className="flexcontainer7">
                         <div className="flexcontainer8">
                         <form onSubmit={this.uploadFile} >
-                            {/* <img className="container8-image1" src={landscape} alt="placeholder"/> */}
                             <label htmlFor="upload-image" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image1}")`}}>Upload File</label>    
                             <input
                                 className="upload-image"
@@ -65,7 +64,6 @@ export default class ProjectUpload2 extends React.Component {
                         </form>
                         
                         <form onSubmit={this.uploadFile} >
-                            {/* <img className="container8-image2" src={landscape} alt="placeholder"/> */}
                             <label htmlFor="upload-image2" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image2}")`}}>Upload File</label>
                             <input
                                 className="upload-image2"
@@ -85,7 +83,6 @@ export default class ProjectUpload2 extends React.Component {
                 </div>
 
                 <div className="flexcontainer3">
-                    {/* <img className="lrg-img" src={landscape} alt="placeholder"/> */}
                     <form onSubmit={this.uploadFile} >
                         <label htmlFor="upload-image3" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image3}")`}}>Upload File</label>
                         <input
@@ -101,7 +98,6 @@ export default class ProjectUpload2 extends React.Component {
 
                 <div className="section">
                     <div className="flexcontainer5">
-                        {/* <img className="container5-image" src={landscape} alt="placeholder"/> */}
                         <form onSubmit={this.uploadFile} >
                             <label htmlFor="upload-image4" className="custom-file-upload2" style={{"backgroundImage": `url("${this.state.image4}")`}}>Upload File</label>
                             <input
@@ -114,7 +110,6 @@ export default class ProjectUpload2 extends React.Component {
                             />
                         </form>
                         <div className="flexcontainer6">
-                            {/* <img className="micro-img1" src={landscape} alt="placeholder"/> */}
                             <form onSubmit={this.uploadFile} >
                                 <label htmlFor="upload-image5" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image5}")`}}>Upload File</label>
                                 <input
@@ -127,7 +122,6 @@ export default class ProjectUpload2 extends React.Component {
                                 />
                             </form>
 
-                            {/* <img className="micro-img2" src={landscape} alt="placeholder"/> */}
                             <form onSubmit={this.uploadFile} >
                                 <label htmlFor="upload-image6" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image6}")`}}>Upload File</label>
                                 <input
@@ -146,7 +140,6 @@ export default class ProjectUpload2 extends React.Component {
 
                 <div className="section">
                     <div className="flexcontainer2">
-                        {/* <img className="sml-img1" src={landscape} alt="placeholder"/> */}
                         <form onSubmit={this.uploadFile} >
                             <label htmlFor="upload-image7" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image7}")`}}>Upload File</label>
                             <input
@@ -159,7 +152,6 @@ export default class ProjectUpload2 extends React.Component {
                             />
                         </form>
 
-                        {/* <img className="sml-img2" src={landscape} alt="placeholder"/> */}
                         <form onSubmit={this.uploadFile} >
                             <label htmlFor="upload-image8" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image8}")`}}>Upload File</label>
                             <input
