@@ -103,7 +103,7 @@ export default class ProjectUpload2 extends React.Component {
                     <div className="flexcontainer5">
                         {/* <img className="container5-image" src={landscape} alt="placeholder"/> */}
                         <form onSubmit={this.uploadFile} >
-                            <label htmlFor="upload-image4" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image4}")`}}>Upload File</label>
+                            <label htmlFor="upload-image4" className="custom-file-upload2" style={{"backgroundImage": `url("${this.state.image4}")`}}>Upload File</label>
                             <input
                                 className="upload-image4"
                                 name="image4"
@@ -140,10 +140,8 @@ export default class ProjectUpload2 extends React.Component {
                                 />
                             </form>
                         </div>
+                        <textarea className="synopsis-input4" placeholder={this.placeholder}/>
                     </div>
-                    <textarea className="synopsis-input4" 
-                    placeholder={this.placeholder}
-                    />
                 </div>
 
                 <div className="section">
@@ -173,10 +171,9 @@ export default class ProjectUpload2 extends React.Component {
                                 onChange={this.getImage}
                             />
                         </form>
+                        <textarea className="synopsis-input4" type="text" placeholder={this.placeholder}/>
                     </div>
-                    <textarea className="synopsis-input4" type="text"
-                    placeholder={this.placeholder}
-                    />
+                    
                 </div>
 
             </div>

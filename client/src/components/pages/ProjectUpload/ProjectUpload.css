@@ -126,6 +126,7 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1;
     grid-gap: 1em;
+    margin-top: 10%;
 }
 .container5-image{
     width: 100%;
@@ -216,7 +217,7 @@
 .custom-file-upload2 {
     border: 1px solid;
     border-color: black;
-    padding: 28.5% 40%;
+    padding: 29% 40%;
     cursor: pointer;
     background-color: white;
     z-index: 0;
@@ -277,6 +278,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     grid-template-rows: 1fr;
+    margin-top: 10%;
 }
 .synopsis-input5{
     width:97%;
