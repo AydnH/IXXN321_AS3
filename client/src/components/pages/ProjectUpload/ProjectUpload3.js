@@ -91,7 +91,7 @@ export default class ProjectPage3 extends React.Component {
                     <div className="flexcontainer9">
                         <form onSubmit={this.uploadFile} >
                             {/* <img className="portrait1" src={portrait} alt="placeholder"/> */}
-                            <label htmlFor="upload-image3" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image3}")`}}>Upload File</label>
+                            <label htmlFor="upload-image3" className="custom-file-upload4" style={{"backgroundImage": `url("${this.state.image3}")`}}>Upload File</label>
                             <input
                                 className="upload-image3"
                                 name="image3"
@@ -104,7 +104,7 @@ export default class ProjectPage3 extends React.Component {
 
                             {/* <img className="portrait2" src={portrait} alt="placeholder"/> */}
                         <form onSubmit={this.uploadFile} >
-                            <label htmlFor="upload-image4" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image4}")`}}>Upload File</label>
+                            <label htmlFor="upload-image4" className="custom-file-upload4" style={{"backgroundImage": `url("${this.state.image4}")`}}>Upload File</label>
                             <input
                                 className="upload-image4"
                                 name="image4"
@@ -117,7 +117,7 @@ export default class ProjectPage3 extends React.Component {
 
                             {/* <img className="portrait3" src={portrait} alt="placeholder"/> */}
                         <form onSubmit={this.uploadFile} >
-                            <label htmlFor="upload-image5" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image5}")`}}>Upload File</label>
+                            <label htmlFor="upload-image5" className="custom-file-upload4" style={{"backgroundImage": `url("${this.state.image5}")`}}>Upload File</label>
                                 <input
                                     className="upload-image5"
                                     name="image5"
@@ -138,7 +138,7 @@ export default class ProjectPage3 extends React.Component {
                     <div className="flexcontainer1">
                         {/* <img className="portrait" src={portrait} alt="placeholder"/> */}
                         <form onSubmit={this.uploadFile} >
-                            <label htmlFor="upload-image6" className="custom-file-upload" style={{"backgroundImage": `url("${this.state.image6}")`}}>Upload File</label>
+                            <label htmlFor="upload-image6" className="custom-file-upload4" style={{"backgroundImage": `url("${this.state.image6}")`}}>Upload File</label>
                             <input
                                 className="upload-image6"
                                 name="image6"

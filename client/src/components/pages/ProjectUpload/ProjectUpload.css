@@ -8,7 +8,10 @@
     text-align: left;
     width: 100%;
     margin-top:10vh;
-
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: thin;
 }
 
 .designerNames {
@@ -19,7 +22,10 @@
     text-align: left;
     width: 100%;
     margin-right: 3%;
-
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: thin;
 }
 .container {
     width: 65%;
@@ -28,15 +34,17 @@
 }
 .name-flex {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
 }
 .section {
     margin-bottom: 10%;
 }
 .flexcontainer1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 1em;
+    margin-top: 10%;
 }
 .pr-hero {
     max-width: 100%;
@@ -70,7 +78,6 @@
     max-width: 100%;
 }
 .synopsis-input4 {
-    max-width:97%;
     height: 7vw;
     padding: 1.5%;
     margin-top:1%;
@@ -81,7 +88,8 @@
     text-align: left;
     resize: none;
     grid-row: 2;
-    grid-column: 1 / 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
 }
 .flexcontainer3 {
     display: grid;
@@ -200,6 +208,9 @@
     background-color: white;
     z-index: 0;
     display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 .custom-file-upload2 {
@@ -210,6 +221,9 @@
     background-color: white;
     z-index: 0;
     display: block;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 100%;
 }
 
 .custom-file-upload3 {
@@ -220,6 +234,11 @@
     background-color: white;
     z-index: 0;
     display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+  
 }
 
 .custom-file-upload3 {
@@ -230,6 +249,21 @@
     background-color: white;
     z-index: 0;
     display: block;
+    background-size: 100%;
+}
+
+.custom-file-upload4 {
+    border: 1px solid;
+    border-color: black;
+    padding: 60% 30%;
+    cursor: pointer;
+    background-color: white;
+    z-index: 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
 }
 
 .upload-image-button{
