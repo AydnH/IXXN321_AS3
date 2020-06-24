@@ -5,7 +5,7 @@
 
 .UserProject {
 	display: grid;
-	margin: 30vw;
+	margin: 25vw;
 }
 
 /* Text Styling */
@@ -134,7 +134,7 @@
 	flex-direction: column;
 	opacity: 0;
 	transition: 0.4s;
-	padding: 200vh;
+	margin:30vw;
 	justify-content: center;
 }
 
