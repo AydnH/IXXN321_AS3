@@ -7,8 +7,8 @@ export default class Nav extends React.Component {
     return (
       <div id="navCont">
         <div>
-          <Link className="navLeft login" to="/Login">
-            LOGIN
+          <Link className="navLeft login" to="/SignUp">
+            SIGN UP
           </Link>
 
           <Link className="navLeft upload" to="/projectUploaderPage">
