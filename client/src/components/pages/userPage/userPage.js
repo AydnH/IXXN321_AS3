@@ -1,6 +1,9 @@
 import React from "react";
 import "../userPage/userPage.css"
+import "../userPage/Hover.css"
 import placeholder from './images/placeholder.jpg';
+import Hover from "../userPage/Hover";
+
 export default class userPage extends React.Component {
   render() {
     return (
@@ -22,6 +25,7 @@ export default class userPage extends React.Component {
         </section>
 
         <section id="UserProject">
+        <Hover>
         <img className="placeholder" src={placeholder} alt="placeholder"/> 
         <img className="placeholder2" src={placeholder} alt="placeholder"/> 
         <img className="placeholder3" src={placeholder} alt="placeholder"/> 
@@ -30,14 +34,7 @@ export default class userPage extends React.Component {
         <img className="placeholder6" src={placeholder} alt="placeholder"/> 
         <img className="placeholder7" src={placeholder} alt="placeholder"/> 
         <img className="placeholder8" src={placeholder} alt="placeholder"/> 
-        <div className="Hover">
-        <h4 className="project-name">project name
-        dd/mm/yyyy</h4>
-        <p className = "synopsis2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae 
-        nibh. consectetur adipiscing elit. Enim pretium sit id scelerisque auctor tellus sit vitae nibh. consectetur 
-        adipiscing elit. 
-        Read more</p>
-        </div>
+        </Hover>
         </section>
       </div>
     );

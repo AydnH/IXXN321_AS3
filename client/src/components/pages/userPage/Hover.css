@@ -1,0 +1,264 @@
+/*Hover Heading Styling*/
+.project-name {
+    position: absolute;
+    width: 375.12px;
+    height: 55px;
+    left: 944.88px;
+    top: 3340.41px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color:black;
+}
+.project-name2 {
+    position: absolute;
+    width: 375px;
+    height: 162px;
+    left: 530px;
+    top: 3290px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:black;
+}
+.project-name3 {
+    position: absolute;
+    width: 375.12px;
+    height: 100.62px;
+    left: 122px;
+    top: 3320px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color:black;
+}
+.project-name4 {
+    position: absolute;
+    width: 375.12px;
+    height: 75px;
+    left: 945px;
+    top: 2582px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: black;
+}
+.project-name5 {
+    position: absolute;
+    width: 375.12px;
+    height: 80px;
+    left: 533px;
+    top: 2582px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color:black;
+    text-transform: uppercase;
+}
+.project-name6 {
+    position: absolute;
+    width: 375.12px;
+    height: 60px;
+    left: 118px;
+    top: 2591px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color:black;
+}
+.project-name7 {
+    position: absolute;
+    width: 375.12px;
+    height: 113.62px;
+    left: 900px;
+    top: 1780px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: black;
+}
+.project-name8 {
+    position: absolute;
+    width: 375.12px;
+    height: 113.62px;
+    left: 234px;
+    top: 1780px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color:black;
+}
+
+ /*Hover Paragraph Styling*/
+.synopsis {
+    position: absolute;
+    width: 537px;
+    height: 535px;
+    left: 783px;
+    top: 437px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: black;
+}
+.synopsis2 {
+    position: absolute;
+    width: 375px;
+    height: 246px;
+    left: 945px;
+    top: 3460px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:black;
+}
+.synopsis3 {
+    position: absolute;
+    width: 375px;
+    height: 246px;
+    left: 540px;
+    top: 3460px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:black;
+}
+.synopsis4 {
+    position: absolute;
+    width: 375px;
+    height: 246px;
+    left: 122px;
+    top: 3460px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:black;
+}
+.synopsis5 {
+    position: absolute;
+    width: 375px;
+    height: 246px;
+    left: 945px;
+    top: 2696px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:black;
+}
+.synopsis6 {
+    position: absolute;
+    width: 375px;
+    height: 246px;
+    left: 531px;
+    top: 2700px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:black;
+}
+.synopsis7 {
+    position: absolute;
+    width: 375px;
+    height: 246px;
+    left: 117px;
+    top: 2700px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:black;
+}
+.synopsis8 {
+    position: absolute;
+    width: 375px;
+    height: 246px;
+    left: 906px;
+    top: 1920px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:black;
+}
+.synopsis9 {
+    position: absolute;
+    width: 375px;
+    height: 246px;
+    left: 234px;
+    top: 1920px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:black;
+}
