@@ -1,13 +1,7 @@
 import React from "react";
 import "./Nav.css";
 
-// import Home from "../pages/homePage/js/homePage";
-import Login from "../pages/SignUp/SignUp";
-// import ProjectPage from "./pages/js/projectPage";
-import projectUploaderPage from "../pages/js/projectUploadPage";
-// import userPage from "./pages/userPage/userPage";
-
-import { HashRouter, Route, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default class Nav extends React.Component {
   render() {
@@ -15,28 +9,26 @@ export default class Nav extends React.Component {
       <div id="navCont">
         <div>
 
-            <a className="navLeft login">
-                LOGIN
-                <Route path="/Login" exact component={Login} />
-            </a>
+          <Link to="./Login" className="navLeft login">LOGIN</Link>
 
-            <a className="navLeft upload">
-                Upload
-                <Route path="/projectUploaderPage" exact component={projectUploaderPage} />
-            </a>
+          <Link to="./projectUploaderPage" className="navLeft upload">Upload</Link>
 
         </div>
 
+        <Link to="./home" className="homeSvg">
+          <svg className="homeLink" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path/>
+          </svg>
+        </Link>
+
         <div>
-          <a href="" className="navRight people">
-            People
-          </a>
-          <a href="" className="navRight projects">
-            Projects
-          </a>
-          <a href="" className="navRight archive">
-            Archive
-          </a>
+
+          <Link to="./home" className="navRight people">People</Link>
+          
+          <Link to="./home" className="navRight projects">Projects</Link>
+
+          <Link to="./home" className="navRight archive">Archive</Link>
+
         </div>
       </div>
     );
