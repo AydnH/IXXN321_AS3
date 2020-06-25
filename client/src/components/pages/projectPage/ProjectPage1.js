@@ -36,12 +36,12 @@ export default class ProjectPage1 extends React.Component {
             pellentesque imperdiet morbi vitae varius sed pellentesque aliquet
             ultricies. Dignissim blandit ultrices vehicula convallis. Congue
             massa dui eu porttitor faucibus mi neque, venenatis. Congue massa
-            dui eu.{" "}
+            dui eu.
           </p>
         </div>
 
         <div className="pp-section">
-          <img src={landscape} alt="placeholder" />
+          <img src={landscape} alt="placeholder" className="large-pp-img" />
         </div>
 
         <div className="pp-section">

@@ -24,7 +24,7 @@ export default class Nav extends React.Component {
 
           <Link to="./home" className="navRight people">People</Link>
           
-          <Link to="./home" className="navRight projects">Projects</Link>
+          <Link to="./ProjectPage" className="navRight projects">Projects</Link>
 
           <Link to="./home" className="navRight archive">Archive</Link>
 

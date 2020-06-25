@@ -20,7 +20,10 @@ export default class ProjectPage extends React.Component {
       default:
         return (
           <div>
-            <h1>You Have not uploaded a project</h1>
+            &nbsp;
+          <ProjectPage1 />
+          <ProjectPage2 />
+          <ProjectPage3 />
           </div>
         );
     }

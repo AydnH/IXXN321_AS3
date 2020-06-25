@@ -184,7 +184,7 @@ export default class ProjectPage3 extends React.Component {
               <form onSubmit={this.uploadFile}>
                 <label
                   htmlFor="upload-image7"
-                  className="custom-file-upload"
+                  className="custom-file-upload5"
                   style={{ backgroundImage: `url("${this.state.image7}")` }}
                 >
                   Upload File

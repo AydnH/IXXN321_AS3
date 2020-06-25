@@ -2,7 +2,7 @@
 
 .pp-project-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 96px;
+    font-size: 80px;
     font-weight: 500;
     margin-bottom: 0;
     text-align: left;
@@ -17,8 +17,7 @@
 }
 
 .pp-cont {
-    width: 65%;
-    margin-left: auto;
+    width: 95%;
     margin-right: auto;
 }
 
@@ -43,8 +42,8 @@
 }
 
 .pp-pr-hero {
-    max-width: 65%;
-    height: auto;
+    width: 60%;
+    height: 40%;
     margin-right: 3%;
 }
 
@@ -58,17 +57,22 @@
 }
 
 .pp-med-img {
-    width:80%;
-    
+    width:90%;
+    margin-bottom: 3%;
 }
 
 .pp-micro-img {
-    width: 80%;
+    width: 85%;
+    margin-bottom: 3%;
     height: auto;
 }
 
 .pp-portrait {
     width: 30%;
+}
+
+.large-pp-img{
+    width: 100%;
 }
 
 .pp-project-synopsis {
@@ -77,6 +81,7 @@
     font-size: 18px;
     text-transform: uppercase;
     text-align: left;
+    margin-top: 0;
 }
 
 .pp-project-synopsis2 {
