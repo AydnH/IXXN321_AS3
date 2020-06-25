@@ -5,8 +5,10 @@
 
 .UserProject {
 	display: grid;
-	margin: 30vw;
+	margin: 25vw;
 }
+
+/* Text Styling */
 
 .designer-name {
 	position: absolute;
@@ -40,22 +42,6 @@
 	text-transform: uppercase;
 }
 
-.synopsis {
-	position: absolute;
-	width: 537px;
-	height: 535px;
-	left: 783px;
-	top: 437px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 36px;
-	/* or 200% */
-	text-transform: uppercase;
-	color: #000000;
-}
-
 .designer-projects {
 	font-family: Roboto;
 	font-style: normal;
@@ -69,38 +55,6 @@
 	text-transform: uppercase;
 }
 
-.project-name {
-	position: absolute;
-	width: 375.12px;
-	height: 113.62px;
-	left: 944.88px;
-	top: 3320.41px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 36px;
-	line-height: 42px;
-	display: flex;
-	align-items: center;
-	text-transform: uppercase;
-}
-
-.synopsis2 {
-	position: absolute;
-	width: 375px;
-	height: 246px;
-	left: 945px;
-	top: 3469px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 36px;
-	/* or 200% */
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-}
-
 .hero {
 	position: absolute;
 	width: 592px;
@@ -108,7 +62,7 @@
 	left: 117px;
 	top: 120px;
 }
-
+/* Place Holder Images Displaying */
 .placeholder {
 	position: absolute;
 	width: 572px;
@@ -172,15 +126,15 @@
 	left: 944.88px;
 	top: 3038px;
 }
-
+/* Hover for Placeholder Images */
 .Hover {
-	height: 54vh;
+	height: 60vh;
 	align-content: center;
 	display: flex;
 	flex-direction: column;
 	opacity: 0;
 	transition: 0.4s;
-	padding: 3vh;
+	margin:30vw;
 	justify-content: center;
 }
 
@@ -214,10 +168,3 @@
 	color: #000000;
 }
 
-.Hover .placeholder8 {
-    position: absolute;
-	width: 375.12px;
-	height: 317.41px;
-	left: 944.88px;
-	top: 3038px;
-}
