@@ -8,7 +8,7 @@ export default class Nav extends React.Component {
       <div id="navCont">
         <div>
 
-          <Link to="./Login" className="navLeft login">LOGIN</Link>
+          <Link to="./SignUp" className="navLeft login">SIGNUP</Link>
 
           <Link to="./projectUploaderPage" className="navLeft upload">Upload</Link>
 

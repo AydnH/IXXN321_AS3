@@ -6,10 +6,7 @@ export default class SignUp extends React.Component {
 
         return(
             <div>
-                <div className="heading">
-                    <h1 className="SignUp-H1">VORTFOLIO</h1>
-                    <h2 className="SignUp-H2">VICTORIA UNIVERSITY</h2>
-                </div>
+                
                 <div className="form">
                     <input className="SignUp-Inputs" type="text" placeholder="John Doe"></input>
                     <input className="SignUp-Inputs" type="email" placeholder="YOUR@EMAIL.HERE"></input>
