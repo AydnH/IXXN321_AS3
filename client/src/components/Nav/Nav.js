@@ -2,16 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-import { Link } from "react-router-dom";
-
 export default class Nav extends React.Component {
   render() {
     return (
       <div id="navCont">
         <div>
-          <Link className="navLeft login" to="/SignUp">
-            SIGN UP
-          </Link>
 
           <Link to="./Login" className="navLeft login">LOGIN</Link>
 
