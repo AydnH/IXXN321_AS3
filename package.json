@@ -19,12 +19,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "npm install && cd Client && npm install && npm run build",
-    "client": "cd client && npm run start",
-    "server": "DEBUG=* nodemon server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "server": "nodemon server.js",
+    "client-install": "npm install --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "concurrently \"node server.js\" \"cd client && npm start\""
   },
   "repository": {
     "type": "git",
