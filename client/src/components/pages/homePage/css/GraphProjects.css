@@ -1,0 +1,56 @@
+#GraphCont{
+    text-transform: uppercase;
+    margin: 15vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#GraphProjectsCont{
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: auto auto auto;
+    height: 40vh;
+}
+
+.GraphPro1{ background-image: url(https://media.giphy.com/media/l1J9OUNGNXAHrTwe4/source.gif); }
+
+.GraphPro2{ background-image: url(https://media.giphy.com/media/l378hjfdoX1kntBrq/giphy.gif); }
+
+.GraphPro3{ background-image: url(https://media.giphy.com/media/l1J9NeQ7ApYUiLydG/source.gif); }
+
+/* -------------------------
+   hover effects */
+
+#GraphHoverInfo{
+    height: 90%;
+    padding: 5%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    justify-content: center;
+}
+
+#GraphHoverInfo:hover{
+    height: 80%;
+    margin: 5%;
+    opacity: 10;
+    background-color: #ffffff;
+}
+
+#GraphHoverInfo h1{
+    margin: 0px;
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    letter-spacing: 0.1em;
+}
+
+#GraphHoverInfo p{
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    font-size: 1.5vw;
+}

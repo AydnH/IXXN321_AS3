@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+#navCont{
+    position: fixed;
+    font-size: 1.2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.navLeft{
+    position: absolute;
+    color: black;
+    padding: 1vw;
+    transform-origin: center;
+    transition: 0.4s;
+}
+
+.navLeft:hover{
+    transform: rotateX(180deg);
+}
+
+.login{
+    left: 3vw;
+    top: 6vh;
+}
+
+.upload{
+    left: 3vw;
+    top: 90vh;
+}
+
+
+
+
+
+.navRight{
+    transform: rotateZ(90deg);
+    color: #909090;
+    position: absolute;
+    padding: 1vw;
+    transform-origin: center;
+    transition: 0.4s;
+}
+
+.navRight:hover{
+    transform: rotateZ(90deg) rotateX(180deg);
+}
+
+.people{
+    top: 10vh;
+    left: 90vw;
+}
+
+.projects{
+    top: 45vh;
+    left: 89vw;
+}
+
+.archive{
+    top: 85vh;
+    left: 90vw;
+}

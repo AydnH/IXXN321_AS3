@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.featureCont{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    margin: 15vw;
+    margin-top: 5vw;
+    height: 80vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projectDiv{
+    margin-left: -15vw;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+#nameDiv{
+    height: 10vw;
+    align-items: center;
+    display: flex;
+}
+
+#lineDiv{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.featureCont h1{
+    font-size: 3vw;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    height: 5vw;
+    transform-origin: left top;
+}
+
+.featureCont h2{
+    font-size: 3.2vw;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    align-self: end;
+    margin: 0px;
+    text-align: left;
+}
+
+.featureCont h3{
+    font-size: 1.4vw;
+    letter-spacing: 0.2em;
+    width: 170%;
+}
+
+#projectDiv{
+    margin-left: -10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#featureImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#vortImg{
+    height: 30%;
+    object-fit: cover;
+    justify-self: center;
+    
+}

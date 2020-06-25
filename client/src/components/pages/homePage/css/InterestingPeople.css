@@ -1,0 +1,67 @@
+#InterestingPeopleCont{
+    margin-bottom: 10vw;
+    text-align: center;
+}
+
+#IntPeopleCont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4vw;
+    margin: 15vw;
+    text-transform: uppercase;
+}
+
+.personCont{
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.personCont1{
+    background-image: url(../images/student1.jpg);
+}
+
+.personCont2{
+    background-image: url(../images/student2.jpg);
+}
+
+.personCont3{
+    background-image: url(../images/student3.jpg);
+}
+
+
+/* -----------------------------
+   hover info */
+
+.hoverInfo{
+    height: 54vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.4s;
+    padding: 3vh;
+    justify-content: center;
+}
+
+.hoverInfo:hover{
+    opacity: 10;
+    background-color: #ffffff;
+    margin: 3vh;
+    height: 48vh;
+}
+
+.hoverInfo h1{
+    margin: 0px;
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    letter-spacing: 0.1em;
+}
+
+.hoverInfo p{
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    font-size: 1.5vw;
+}

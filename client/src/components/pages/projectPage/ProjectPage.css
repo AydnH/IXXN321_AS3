@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.pp-project-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.pp-designerName {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: left;
+}
+
+.pp-cont {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pp-section {
+    margin-bottom: 10%;
+}
+
+.pp-flexcontainer {
+    display: flex;
+}
+
+.pp-flexcontainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pp-flexcontainer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.pp-pr-hero {
+    max-width: 65%;
+    height: auto;
+    margin-right: 3%;
+}
+
+.pp-lrg-img {
+    width: 65%;
+}
+
+.pp-sml-img {
+    width: 47%;
+    
+}
+
+.pp-med-img {
+    width:80%;
+    
+}
+
+.pp-micro-img {
+    width: 80%;
+    height: auto;
+}
+
+.pp-portrait {
+    width: 30%;
+}
+
+.pp-project-synopsis {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.pp-project-synopsis2 {
+    width: 100%;
+    margin-top:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.pp-project-synopsis3 {
+    width:47%;
+    margin-top:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+}

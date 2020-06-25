@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.project-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    font-weight: 500;
+    margin-bottom: 5%;
+    text-align: left;
+    width: 100%;
+    margin-top:10vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: thin;
+}
+
+.designerNames {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
+    margin-right: 3%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: thin;
+}
+.container {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+.section {
+    margin-bottom: 10%;
+}
+.flexcontainer1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+    margin-top: 10%;
+}
+
+.flexcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1.5fr 1fr;
+    grid-gap: 1em;
+}
+
+.flexcontainer3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10%;
+}
+
+.flexcontainer4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.flexcontainer5 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1;
+    grid-gap: 1em;
+    margin-top: 10%;
+}
+
+.flexcontainer6 {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.flexcontainer7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    grid-template-rows: 1fr;
+    margin-top: 10%;
+}
+
+.flexcontainer8{
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.flexcontainer9{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.flexcontainer10{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+}
+
+.synopsis-input {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+    padding: 3%;
+}
+
+.synopsis-input2 {
+    width: 96.8%;
+    margin-top:0;
+    padding: 1.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+    padding: 3%;
+}
+
+.synopsis-input3 {
+    width:97%;
+    margin-top:0;
+    padding: 1.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 3%;
+}
+
+.synopsis-input4 {
+    height: 7vw;
+    padding: 1.5%;
+    margin-top:1%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding: 3%;
+}
+
+.synopsis-input5{
+    width:97%;
+    margin-top:0;
+    padding: 1.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    resize: none;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 3%;
+}
+
+.upload-image {
+    display:none;
+}
+
+.upload-image2 {
+    display:none;
+}
+
+.upload-image3 {
+    display:none;
+}
+
+.upload-image4 {
+    display:none;
+}
+
+.upload-image5 {
+    display:none;
+}
+
+.upload-image6 {
+    display:none;
+}
+
+.upload-image7 {
+    display:none;
+}
+
+.upload-image8 {
+    display:none;
+}
+
+.custom-file-upload {
+    border: 1px solid;
+    border-color: black;
+    padding: 23% 40%;
+    cursor: pointer;
+    background-color: white;
+    z-index: 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.custom-file-upload2 {
+    border: 1px solid;
+    border-color: black;
+    padding: 29% 40%;
+    cursor: pointer;
+    background-color: white;
+    z-index: 0;
+    display: block;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.custom-file-upload3 {
+    border: 1px solid;
+    border-color: black;
+    padding: 28.5% 40%;
+    cursor: pointer;
+    background-color: white;
+    z-index: 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    
+  
+}
+
+.custom-file-upload3 {
+    border: 1px solid;
+    border-color: black;
+    padding: 30% 20%;
+    cursor: pointer;
+    background-color: white;
+    z-index: 0;
+    display: block;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.custom-file-upload4 {
+    border: 1px solid;
+    border-color: black;
+    padding: 60% 30%;
+    cursor: pointer;
+    background-color: white;
+    z-index: 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.upload-image-button{
+    position: absolute;
+    left: 37%;
+    z-index: 0;
+}
+
+.container8-image1{
+    width: 100%;
+    grid-row: 1;
+}
+.container8-image2{
+    width: 100%;
+    grid-row: 2;
+}
+

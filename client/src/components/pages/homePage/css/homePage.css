@@ -1,0 +1,36 @@
+.homePageCont{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------------
+   disciplines title sections */
+
+
+.titleCont{
+    margin: 10vw;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+.disciplineTitle{
+    padding-right: 1.5vw;
+}
+
+.titleFlip{
+    transform: rotate(180deg);
+}
+
+.ProjectCont{
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
